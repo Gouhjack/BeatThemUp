@@ -24,6 +24,17 @@ public class PlayerJump : MonoBehaviour
     void Update()
     {
         
+        if (_jumpTimer < 1)
+        {
+            _jumpTimer += Time.deltaTime;
+
+            float y = _jumpCurve.Evaluate(_jumpTimer);
+
+            _graphics.localPosition = new Vector3(transform.localPosition.x, y, transform.localPosition.z);
+
+            Debug.Log(y);
+        }
+
     }
     private void FixedUpdate()
     {
