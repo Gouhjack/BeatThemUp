@@ -236,40 +236,40 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.3982368
-      value: 0.79503477
-      inSlope: 1.516211
-      outSlope: 1.516211
+      time: 0.25927758
+      value: 0.30086225
+      inSlope: 0.04286791
+      outSlope: 0.04286791
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.10527135
+      inWeight: 0.1202369
       outWeight: 0.099774696
     - serializedVersion: 3
-      time: 0.78413075
-      value: 0.021501683
-      inSlope: -3.539896
-      outSlope: -3.539896
+      time: 0.4472167
+      value: 0.20680442
+      inSlope: -1.184983
+      outSlope: -1.184983
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.05531262
-      outWeight: 0.5693769
+      inWeight: 0.14250189
+      outWeight: 0.15217116
     - serializedVersion: 3
-      time: 0.7843628
-      value: 0.022808075
-      inSlope: 0
-      outSlope: 0
+      time: 0.5812378
+      value: 0.00022506714
+      inSlope: -1.6084895
+      outSlope: -1.6084895
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0
+      inWeight: 0.12835039
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _jumpHeight: 3
-  _jumpDuration: 3
+  _jumpHeight: 5
+  _jumpDuration: 1
   _animator: {fileID: 1170343009}
   _moveSpeed: 3
-  _maxJump: 2
+  _maxJump: 1
 --- !u!61 &526700302
 BoxCollider2D:
   m_ObjectHideFlags: 0

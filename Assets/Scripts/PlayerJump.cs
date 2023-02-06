@@ -30,6 +30,7 @@ public class PlayerJump : MonoBehaviour
 
     void Update()
     {
+        
         _direction.x = Input.GetAxisRaw("Horizontal") * _moveSpeed;
         _direction.y = Input.GetAxisRaw("Vertical") * _moveSpeed;
 
@@ -38,8 +39,16 @@ public class PlayerJump : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             _isJumping = true;
+            _animator.SetBool("isJumping", true);
+
+            _animator.SetFloat("moveSpeedY", _direction.y);
+
+        }
+        if (_isJumping == true)
+        {
             if (_jumpTimer < _jumpDuration)
             {
+                Debug.Log(_jumpTimer);
                 _jumpTimer += Time.deltaTime;
 
                 //progression / maximum
@@ -48,15 +57,16 @@ public class PlayerJump : MonoBehaviour
                 _graphics.localPosition = new Vector3(_graphics.localPosition.x, y * _jumpHeight, _graphics.localPosition.z);
 
             }
-            else
+            else if (_jumpTimer >= _jumpDuration)
             {
-                _jumpTimer = 0;
+                _jumpTimer = 0f;
+                _isJumping = false;
+                _animator.SetTrigger("Grounded");
+                
             }
-            _animator.SetFloat("moveSpeedY", _direction.y);
-
+           // _animator.SetBool("Land", false);
+           // _animator.SetBool("isJumping", false);
         }
-        
-
 
 
 
@@ -80,6 +90,10 @@ public class PlayerJump : MonoBehaviour
 
     #region Methods
 
+
+
+
+
     Transform _graphics;
     float _jumpTimer = 0f;
 
@@ -91,6 +105,7 @@ public class PlayerJump : MonoBehaviour
     private Vector2 _direction;
     private bool _isJumping;
     private int _jumpNumber;
+    private bool _land;
 
     #endregion
 }
