@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 54aef3b72cce9457a9ec348523ace821
+guid: 6f244f57324bd4fadb25d5faa70d9de6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,910 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 455f07d26046a8c4a8505d811d2663d1
-      internalID: -1710414783
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_1
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84cdf580c49624c45b98a4b677af818e
-      internalID: -1944316070
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_2
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21a49c35421edbb45bdf26260d806e28
-      internalID: 799237303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_3
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0808ae6f8e22a7045ada3b612a5ad609
-      internalID: -922877397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_4
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f2f3f86f99f7ee14a9c73415bdf91c73
-      internalID: 1479586387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_5
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 215bf5b8cfefbff4390249b72b5a48a1
-      internalID: -1270197477
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_6
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01fdc712ff7a1b343ad32ed88c9251ba
-      internalID: -1479933560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_7
-      rect:
-        serializedVersion: 2
-        x: 672
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83d9ecb5f04b00d4d8ddf84ef5ebbb54
-      internalID: -1154727951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_8
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d17fd1e3aee6fa64d8776adc0c5abbe5
-      internalID: 1837625714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_9
-      rect:
-        serializedVersion: 2
-        x: 864
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87bc0d2ecac06c24582809919c3e5a41
-      internalID: -1136727964
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_10
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db9de63f2c5cb694babdf7d806f14a20
-      internalID: 2129561284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_11
-      rect:
-        serializedVersion: 2
-        x: 1056
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e02b9cf2cae5ab4d8c862e144013be0
-      internalID: -324246791
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_12
-      rect:
-        serializedVersion: 2
-        x: 1152
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 222170fbb95127e499d545e271420040
-      internalID: 478088755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_13
-      rect:
-        serializedVersion: 2
-        x: 1248
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d4475ab6520c424e94860ce68dbef3b
-      internalID: 13428871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_14
-      rect:
-        serializedVersion: 2
-        x: 1344
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a230935d231d33e4286e787bb3e4f8f6
-      internalID: -1988718575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_15
-      rect:
-        serializedVersion: 2
-        x: 1440
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94c82fdd25310694fbc685be09b4b318
-      internalID: 1037103268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_16
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff81bcaea48d15944b582f0f7c1e28b0
-      internalID: -2035044390
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_17
-      rect:
-        serializedVersion: 2
-        x: 1632
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90b2a72051e8b2941abe772fe0ce74da
-      internalID: -1749873341
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_18
-      rect:
-        serializedVersion: 2
-        x: 1728
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 86b38b2a54848b644b00e687ceca029e
-      internalID: 6697877
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_19
-      rect:
-        serializedVersion: 2
-        x: 1824
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 608100751841a8841a209676ba3c66c3
-      internalID: 2034239633
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_20
-      rect:
-        serializedVersion: 2
-        x: 1920
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7422ca1f961b28408ac01ae6c0c7620
-      internalID: 1425391655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_21
-      rect:
-        serializedVersion: 2
-        x: 2016
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b367503dd8d37540a5765e8845df0ca
-      internalID: -593127088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_22
-      rect:
-        serializedVersion: 2
-        x: 2112
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92a1a0d0749045a418ef335c8b18b641
-      internalID: 765093911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_23
-      rect:
-        serializedVersion: 2
-        x: 2208
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a0396d8224a21f34c835e3dfebf40d8b
-      internalID: -878805918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_24
-      rect:
-        serializedVersion: 2
-        x: 2304
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b17eb2ed43823cf4d92b2393a15d8e2b
-      internalID: -1213662128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_25
-      rect:
-        serializedVersion: 2
-        x: 2400
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3e393d2f35418345a5971c811406223
-      internalID: -799274764
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_26
-      rect:
-        serializedVersion: 2
-        x: 2496
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a736c72dd6b806d4b8891d85cba83294
-      internalID: 360615492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_27
-      rect:
-        serializedVersion: 2
-        x: 2592
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25544d410fbc8a44a99ed108498aa2d9
-      internalID: 1366545020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_28
-      rect:
-        serializedVersion: 2
-        x: 2688
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6244029e16ab14048a1b412046ae2d62
-      internalID: -1990107253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_29
-      rect:
-        serializedVersion: 2
-        x: 2784
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ff864e398baca84c9f18fc9f9c28855
-      internalID: 1576099898
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_30
-      rect:
-        serializedVersion: 2
-        x: 2880
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f0782062bbc3e2b46be448f8b4df3ce4
-      internalID: 1334436381
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_31
-      rect:
-        serializedVersion: 2
-        x: 2976
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94b2c80d4fcbe1542b769234c221f28f
-      internalID: 472590687
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_32
-      rect:
-        serializedVersion: 2
-        x: 3072
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22871d861402d6147b8bfbacb4985bb2
-      internalID: -1798947165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_33
-      rect:
-        serializedVersion: 2
-        x: 3168
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8116eaf925b1fd479f00b33d11643cc
-      internalID: -1071378836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_34
-      rect:
-        serializedVersion: 2
-        x: 3264
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cce9b39879a154e40b61f88720c75f36
-      internalID: -83335951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_35
-      rect:
-        serializedVersion: 2
-        x: 3360
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a64f4ef6a3606d04c8d2bdef1b6366d6
-      internalID: -298268715
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_36
-      rect:
-        serializedVersion: 2
-        x: 3456
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f186a3ab9d6c1a4fba591fa49328e27
-      internalID: 2025748243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_37
-      rect:
-        serializedVersion: 2
-        x: 3552
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 09a32ed5ddaa0d64299108d5c8d6db66
-      internalID: 2141239027
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_38
-      rect:
-        serializedVersion: 2
-        x: 3648
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 642e38b3c34a81b448d0bf75f4c34341
-      internalID: 1783455609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_39
-      rect:
-        serializedVersion: 2
-        x: 3744
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1eedbda32d20a5946a7792dcb402c66e
-      internalID: -1825521958
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_40
-      rect:
-        serializedVersion: 2
-        x: 3840
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d64867070b11f7b40983e22574472168
-      internalID: 591657782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_41
-      rect:
-        serializedVersion: 2
-        x: 3936
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a587039a077cb747b521b843897d374
-      internalID: 1724897861
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_42
-      rect:
-        serializedVersion: 2
-        x: 4032
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd62b3539c071514aaa0dde03d19cb34
-      internalID: 1189942876
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_43
+      name: 123_Assets_CHARACTER_5_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1046,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5245edcc136b9dc4680895075568e527
-      internalID: -506056245
+      spriteID: 28e98793387162d41bb1b1774cc9677c
+      internalID: 627042336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_44
+      name: 123_Assets_CHARACTER_5_1
       rect:
         serializedVersion: 2
         x: 96
@@ -1067,14 +164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d317ed0b50253b478fcbd99042b9173
-      internalID: -154452914
+      spriteID: eb9c657accaa51c4b871a49ffebacc94
+      internalID: 363220154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_45
+      name: 123_Assets_CHARACTER_5_2
       rect:
         serializedVersion: 2
         x: 192
@@ -1088,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d8723ca2591b92458df89c8b4cec68b
-      internalID: 604407566
+      spriteID: 4802b82cbe5eb20479ce05e0f879585a
+      internalID: -266840965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_46
+      name: 123_Assets_CHARACTER_5_3
       rect:
         serializedVersion: 2
         x: 288
@@ -1109,14 +206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fee30ea309272ad4aa5fe9722dc417fa
-      internalID: 1859933643
+      spriteID: bcddee5c2562e674697c7a2b66933f76
+      internalID: -2073124667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_47
+      name: 123_Assets_CHARACTER_5_4
       rect:
         serializedVersion: 2
         x: 384
@@ -1130,14 +227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 235fce1e6b713e740ae971d8cda73645
-      internalID: 2071919712
+      spriteID: bd6cacc475025004baa9d3ba3ceb76a5
+      internalID: -1677087004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_48
+      name: 123_Assets_CHARACTER_5_5
       rect:
         serializedVersion: 2
         x: 480
@@ -1151,14 +248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fca59d8fe03bccc429ef2b29ce475554
-      internalID: 1758910227
+      spriteID: 00699344e66e65f44b6a86942281c6a3
+      internalID: 624185496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_49
+      name: 123_Assets_CHARACTER_5_6
       rect:
         serializedVersion: 2
         x: 576
@@ -1172,14 +269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec1ae86b40a145047b7b811391aec6cf
-      internalID: 614264000
+      spriteID: 4560284352fe79c41b688c599a404071
+      internalID: -1195615099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_50
+      name: 123_Assets_CHARACTER_5_7
       rect:
         serializedVersion: 2
         x: 672
@@ -1193,14 +290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da556aad3258e3043bcee407c14c2933
-      internalID: 37138433
+      spriteID: 2142c0b49dac02642a75e6f44c73c915
+      internalID: -1840159627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_51
+      name: 123_Assets_CHARACTER_5_8
       rect:
         serializedVersion: 2
         x: 768
@@ -1214,14 +311,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64658f223f5798142a89d1396aecaae6
-      internalID: -862981095
+      spriteID: 1587326d0bef5994c9b52b9611894168
+      internalID: -1385152832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_52
+      name: 123_Assets_CHARACTER_5_9
       rect:
         serializedVersion: 2
         x: 864
@@ -1235,14 +332,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 728d0367bbc667046a95a592b05ca0b2
-      internalID: -73403611
+      spriteID: f19f47a7d43558b4b9d7dc03d6fde1e4
+      internalID: -576055980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_53
+      name: 123_Assets_CHARACTER_5_10
       rect:
         serializedVersion: 2
         x: 960
@@ -1256,14 +353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eacda3057113866478ea29d652eaef2f
-      internalID: 2146204775
+      spriteID: 6bcbc3386d298a548a4b9da12f8f8f65
+      internalID: -794345710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_54
+      name: 123_Assets_CHARACTER_5_11
       rect:
         serializedVersion: 2
         x: 1056
@@ -1277,14 +374,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef508d5b71e30ec4c94bd20aa5a35078
-      internalID: -1556642185
+      spriteID: 801b67d88065f1c40b2b442ebb224918
+      internalID: 2036068267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_55
+      name: 123_Assets_CHARACTER_5_12
       rect:
         serializedVersion: 2
         x: 1152
@@ -1298,14 +395,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 012364eb92dbd6a4aa4a0ae29b4d48b9
-      internalID: 1456148090
+      spriteID: 663545d0c7a850647a311198c4280f0e
+      internalID: 1250174437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_56
+      name: 123_Assets_CHARACTER_5_13
       rect:
         serializedVersion: 2
         x: 1248
@@ -1319,14 +416,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccdb4c4230c3bb14b860fd2df24a601e
-      internalID: -1956101929
+      spriteID: b3f73df50ba820a499dd5520b8c2edc6
+      internalID: 1075616345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_57
+      name: 123_Assets_CHARACTER_5_14
       rect:
         serializedVersion: 2
         x: 1344
@@ -1340,14 +437,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00aa3a45be5cda04ba1e95a05ac83121
-      internalID: 1801630033
+      spriteID: 8baeeac1d63be7247806e4a884c55994
+      internalID: 1084247158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_58
+      name: 123_Assets_CHARACTER_5_15
       rect:
         serializedVersion: 2
         x: 1440
@@ -1361,14 +458,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6eea6688dbe4a9348af242ca1baa19c6
-      internalID: -1706687134
+      spriteID: 043c837a75b056b499e0495751ac6444
+      internalID: 1928821151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_59
+      name: 123_Assets_CHARACTER_5_16
       rect:
         serializedVersion: 2
         x: 1536
@@ -1382,14 +479,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2694c1bd7b6d96a40a429fbcbb5c8593
-      internalID: -8846066
+      spriteID: 542aa549ad89f244b820aecf677221cb
+      internalID: -1495657870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_60
+      name: 123_Assets_CHARACTER_5_17
       rect:
         serializedVersion: 2
         x: 1632
@@ -1403,14 +500,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b2f38246b0c79c40bb41a1bc28c39d1
-      internalID: 1680103764
+      spriteID: 3fab838f21945074e909aefa4330a093
+      internalID: 1877113639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_61
+      name: 123_Assets_CHARACTER_5_18
       rect:
         serializedVersion: 2
         x: 1728
@@ -1424,14 +521,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 161856963e24fb642a56668b446b183a
-      internalID: 1707415488
+      spriteID: 5b4e08503bc75cb44911320886538e33
+      internalID: -96976034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_62
+      name: 123_Assets_CHARACTER_5_19
       rect:
         serializedVersion: 2
         x: 1824
@@ -1445,14 +542,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3c3c0d2bf7960744837604d71f8372f
-      internalID: -340229529
+      spriteID: 49b946ffe4a865b4ea5674527c423646
+      internalID: -968258757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_63
+      name: 123_Assets_CHARACTER_5_20
       rect:
         serializedVersion: 2
         x: 1920
@@ -1466,14 +563,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31a95d2e4902b9949a12a13ec663c0b9
-      internalID: -359706182
+      spriteID: 0aced675283e058449c09f2a474b84c1
+      internalID: -1770120286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_64
+      name: 123_Assets_CHARACTER_5_21
       rect:
         serializedVersion: 2
         x: 2016
@@ -1487,14 +584,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b92c7b4f2274d9045a7487ae504e0790
-      internalID: -670405303
+      spriteID: 2db04e7cce181a74db40c781ed061a4a
+      internalID: -1501211447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_65
+      name: 123_Assets_CHARACTER_5_22
       rect:
         serializedVersion: 2
         x: 2112
@@ -1508,14 +605,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48bfe53f4bf4a404082545de5192fff4
-      internalID: 566074773
+      spriteID: 3d3cad4109851154a9197f9dfcf2a733
+      internalID: 1388698786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_66
+      name: 123_Assets_CHARACTER_5_23
       rect:
         serializedVersion: 2
         x: 2208
@@ -1529,14 +626,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf806f5f39eece64aa58cce0edf9a914
-      internalID: -1942732805
+      spriteID: 8aaa7418ddc509747a793ab0f5c46a49
+      internalID: 66436257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_67
+      name: 123_Assets_CHARACTER_5_24
       rect:
         serializedVersion: 2
         x: 2304
@@ -1550,14 +647,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f41db6f004c0df8439bb92f4124fdbca
-      internalID: 116837445
+      spriteID: 822ae80fe731a2948872eb2ee75d191d
+      internalID: 2044233088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_68
+      name: 123_Assets_CHARACTER_5_25
       rect:
         serializedVersion: 2
         x: 2400
@@ -1571,14 +668,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87d26d89f26d0cb4b899a455512f9c31
-      internalID: 1671081685
+      spriteID: c280b4edfc783b448a0d167600380271
+      internalID: 682118387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_69
+      name: 123_Assets_CHARACTER_5_26
       rect:
         serializedVersion: 2
         x: 2496
@@ -1592,14 +689,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9626205db0d60404bb8a51b7f77df01b
-      internalID: -1780124122
+      spriteID: 966be5bb371e98b419cf0bc0caf9a41f
+      internalID: 153602783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_70
+      name: 123_Assets_CHARACTER_5_27
       rect:
         serializedVersion: 2
         x: 2592
@@ -1613,14 +710,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bdb87c997ecb8f49b179f80aa4702c2
-      internalID: 861443133
+      spriteID: d0057fee7590ea1409916ae04857a520
+      internalID: -375653382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_71
+      name: 123_Assets_CHARACTER_5_28
       rect:
         serializedVersion: 2
         x: 2688
@@ -1634,14 +731,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee93fe89511398d41bb866f28de2bc39
-      internalID: 1247766726
+      spriteID: 1c6e6330c61fd7741b3b14b92e8141ea
+      internalID: 1136705806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_72
+      name: 123_Assets_CHARACTER_5_29
       rect:
         serializedVersion: 2
         x: 2784
@@ -1655,14 +752,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6ccbd910a0223b4b821d29d8a9e5f17
-      internalID: -2015800128
+      spriteID: 5927abde9c725184b90984e0dfd10d3f
+      internalID: -1061947270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_73
+      name: 123_Assets_CHARACTER_5_30
       rect:
         serializedVersion: 2
         x: 2880
@@ -1676,14 +773,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 950dd19856d815c44a3f7ab75784b82f
-      internalID: 1060179201
+      spriteID: 2e6cc102de5bc774ca9b318ae664c80f
+      internalID: -462493387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_74
+      name: 123_Assets_CHARACTER_5_31
       rect:
         serializedVersion: 2
         x: 2976
@@ -1697,14 +794,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4fa0aad85a584944947976849385698
-      internalID: 1550221262
+      spriteID: 2ecef55745ff07c43a7a30275dc54677
+      internalID: -1850711516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_75
+      name: 123_Assets_CHARACTER_5_32
       rect:
         serializedVersion: 2
         x: 3072
@@ -1718,14 +815,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd3f7868e5002524a898d405f9df802a
-      internalID: -292200232
+      spriteID: ebd5f287453e50b4f943d7cb17d2fdee
+      internalID: 683063328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_76
+      name: 123_Assets_CHARACTER_5_33
       rect:
         serializedVersion: 2
         x: 3168
@@ -1739,14 +836,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 470f918f1ab7a514e8252c13ac90a25d
-      internalID: 1678185225
+      spriteID: 4c1d3096bfa30624eb6ace72637ee806
+      internalID: -1069221777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_77
+      name: 123_Assets_CHARACTER_5_34
       rect:
         serializedVersion: 2
         x: 3264
@@ -1760,14 +857,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dbf1d0218bed1c46aeb333733949b04
-      internalID: -647534398
+      spriteID: e02e495e144f846408ffce910c33fff1
+      internalID: 647829327
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_78
+      name: 123_Assets_CHARACTER_5_35
       rect:
         serializedVersion: 2
         x: 3360
@@ -1781,14 +878,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 935e6a430437fa844855bd2837bcdc8e
-      internalID: -964316590
+      spriteID: 41ebe21d0a574ee4d97dea1697ff5d41
+      internalID: 1187079116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_79
+      name: 123_Assets_CHARACTER_5_36
       rect:
         serializedVersion: 2
         x: 3456
@@ -1802,14 +899,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 335c1f1174fbb9b44ae5ecbba73a6450
-      internalID: -1675245730
+      spriteID: 4077c6424dd169e4491a1a4fd35d0025
+      internalID: -1308717735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_80
+      name: 123_Assets_CHARACTER_5_37
       rect:
         serializedVersion: 2
         x: 3552
@@ -1823,14 +920,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4817340cecb97ed47884be748edf0758
-      internalID: -1481259431
+      spriteID: 3356d8849655a8f4f88fb8a17425a25b
+      internalID: 844252946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_81
+      name: 123_Assets_CHARACTER_5_38
       rect:
         serializedVersion: 2
         x: 3648
@@ -1844,14 +941,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 853ddfa2ff1f01b49ad92407f3a5740f
-      internalID: 544953205
+      spriteID: f19aa692ce1f60e4d99f7d8b278a5441
+      internalID: 326002532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_82
+      name: 123_Assets_CHARACTER_5_39
       rect:
         serializedVersion: 2
         x: 3744
@@ -1865,14 +962,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94e0e91e41a81b44e9f2553357eea6d4
-      internalID: -437574942
+      spriteID: fb6adf9eb616ae34ab065eab6977613f
+      internalID: 355038284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_83
+      name: 123_Assets_CHARACTER_5_40
       rect:
         serializedVersion: 2
         x: 3840
@@ -1886,14 +983,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d16028683f0f5d4683fb9ecfb05b712
-      internalID: -213894473
+      spriteID: 71ab81294f5622a45bfb92a2084de8e2
+      internalID: -1106615250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_84
+      name: 123_Assets_CHARACTER_5_41
       rect:
         serializedVersion: 2
         x: 3936
@@ -1907,14 +1004,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1f94e567dfb3d641a8ba622464d69cb
-      internalID: 303010513
+      spriteID: 502ff0ff2ceb26b4eb08f3a9a57b7708
+      internalID: 108664479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_85
+      name: 123_Assets_CHARACTER_5_42
       rect:
         serializedVersion: 2
         x: 4032
@@ -1928,14 +1025,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca18259d7baf20a4eac1735cdbf85c86
-      internalID: -630568944
+      spriteID: b9c5c02db6187d64eb34a67500347a6f
+      internalID: -1197348526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_86
+      name: 123_Assets_CHARACTER_5_43
       rect:
         serializedVersion: 2
         x: 0
@@ -1949,14 +1046,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 875c533a903f558478414b5ae83db39f
-      internalID: -67279972
+      spriteID: 59763a88da1d0414084364d00fba2b26
+      internalID: -277634196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_87
+      name: 123_Assets_CHARACTER_5_44
       rect:
         serializedVersion: 2
         x: 96
@@ -1970,14 +1067,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 019b30fed80faec4e90d559e6897a626
-      internalID: 1320660605
+      spriteID: 0f2f055cbcf8ce144bfbed57a75df460
+      internalID: 568174069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_88
+      name: 123_Assets_CHARACTER_5_45
       rect:
         serializedVersion: 2
         x: 192
@@ -1991,14 +1088,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9b6359ede53f83469f246cc707b7357
-      internalID: 1311780966
+      spriteID: 8907d1eb8ecb0b84b9a6c2e4d3debbaa
+      internalID: 1031323058
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_89
+      name: 123_Assets_CHARACTER_5_46
       rect:
         serializedVersion: 2
         x: 288
@@ -2012,14 +1109,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e1c22fc59415f1418177e024d7345e2
-      internalID: 1480052590
+      spriteID: 4f8416d522e5a944d8fbc806e92f9be1
+      internalID: 2094738745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_90
+      name: 123_Assets_CHARACTER_5_47
       rect:
         serializedVersion: 2
         x: 384
@@ -2033,14 +1130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 217e5842dbddc8c4cbbaceebfd598f84
-      internalID: 1475262772
+      spriteID: f370a3d55a41a80488243181e8f052d5
+      internalID: -644792560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_91
+      name: 123_Assets_CHARACTER_5_48
       rect:
         serializedVersion: 2
         x: 480
@@ -2054,14 +1151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e1dd668e845ac44ca13c803c358d822
-      internalID: 1576238227
+      spriteID: 162037768df1d6444ac06a78e291d528
+      internalID: -2025016641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_92
+      name: 123_Assets_CHARACTER_5_49
       rect:
         serializedVersion: 2
         x: 576
@@ -2075,14 +1172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf5ee16003c659647bc9f0447f684a3a
-      internalID: 477951304
+      spriteID: c872415179b90d34293a644712bb75ee
+      internalID: -1671140648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_93
+      name: 123_Assets_CHARACTER_5_50
       rect:
         serializedVersion: 2
         x: 672
@@ -2096,14 +1193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 954636dd7c7321c4fa565b4bb7b9d56c
-      internalID: -917564918
+      spriteID: 703243ef7e71f8d4588a557bac8814de
+      internalID: -386845761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_94
+      name: 123_Assets_CHARACTER_5_51
       rect:
         serializedVersion: 2
         x: 768
@@ -2117,14 +1214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39b0e18f57e224b4f902f1171c7d5291
-      internalID: 2013957888
+      spriteID: e0df7313d8caae24cae4d31c4afcf13d
+      internalID: 1211943315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_95
+      name: 123_Assets_CHARACTER_5_52
       rect:
         serializedVersion: 2
         x: 864
@@ -2138,14 +1235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b82ac47188aab7e4999588383f44e117
-      internalID: 754397865
+      spriteID: adce7da430403a147a1d8b18b8790d42
+      internalID: 598227769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_96
+      name: 123_Assets_CHARACTER_5_53
       rect:
         serializedVersion: 2
         x: 960
@@ -2159,14 +1256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4deae9f4eaaed094bac0ddd74b259606
-      internalID: 2046048513
+      spriteID: cad6a54b05c356341a3926a5cde8615b
+      internalID: 1893824997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_97
+      name: 123_Assets_CHARACTER_5_54
       rect:
         serializedVersion: 2
         x: 1056
@@ -2180,14 +1277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86daffbd9b3a9b8468cc9fbffd00dafe
-      internalID: 1726908832
+      spriteID: a970473d8c13b20438c9871df6a20a64
+      internalID: 1804327538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_98
+      name: 123_Assets_CHARACTER_5_55
       rect:
         serializedVersion: 2
         x: 1152
@@ -2201,14 +1298,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 379c6618b60fc21449765cd491917e55
-      internalID: 1957664673
+      spriteID: ac2b1e2fa107fd244879d8d73a921c51
+      internalID: 1469040495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_99
+      name: 123_Assets_CHARACTER_5_56
       rect:
         serializedVersion: 2
         x: 1248
@@ -2222,14 +1319,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27efd8c706682ec49b409d10df56f375
-      internalID: 802489634
+      spriteID: 337bc735ffe83aa4c9645548d35c40af
+      internalID: -748155271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_100
+      name: 123_Assets_CHARACTER_5_57
       rect:
         serializedVersion: 2
         x: 1344
@@ -2243,14 +1340,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1ced0753ee7aef4e9b9f8397919d1ba
-      internalID: -408574802
+      spriteID: 2e38c74921f618d4b9e44778aa722582
+      internalID: 1717639069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_101
+      name: 123_Assets_CHARACTER_5_58
       rect:
         serializedVersion: 2
         x: 1440
@@ -2264,14 +1361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa111983b31520a46b04d13fbe549148
-      internalID: 986872636
+      spriteID: 5da641b33fb5e3a408807aea70ff2de3
+      internalID: -1587533451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_102
+      name: 123_Assets_CHARACTER_5_59
       rect:
         serializedVersion: 2
         x: 1536
@@ -2285,14 +1382,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2beaa6445099e2c4cabb4f1e27ffa0ae
-      internalID: -1637008175
+      spriteID: f2aad986f92ad6942badb726924ead92
+      internalID: 1299544015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_103
+      name: 123_Assets_CHARACTER_5_60
       rect:
         serializedVersion: 2
         x: 1632
@@ -2306,14 +1403,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26a89f0620170a449ba3210ee9a3a77e
-      internalID: 1022937011
+      spriteID: a6cb72c38c9cc744aaa50ebb47ee616b
+      internalID: 336585756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_104
+      name: 123_Assets_CHARACTER_5_61
       rect:
         serializedVersion: 2
         x: 1728
@@ -2327,14 +1424,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fea0347f306589d47a0872640bccee80
-      internalID: 1291982827
+      spriteID: 8a303c0282c908246b19492b8f85a1bf
+      internalID: -145831322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_105
+      name: 123_Assets_CHARACTER_5_62
       rect:
         serializedVersion: 2
         x: 1824
@@ -2348,14 +1445,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f3e088cfa964d542907229da59323df
-      internalID: -1959761705
+      spriteID: eff67230fff71d64fb4f0cdf5f8f2fed
+      internalID: -1792005433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_106
+      name: 123_Assets_CHARACTER_5_63
       rect:
         serializedVersion: 2
         x: 1920
@@ -2369,14 +1466,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01786f569f497f74e9b2265a6b01d4af
-      internalID: -1763393863
+      spriteID: dd0846eb57859e14194d5a7afbd02cd8
+      internalID: 253666902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_107
+      name: 123_Assets_CHARACTER_5_64
       rect:
         serializedVersion: 2
         x: 2016
@@ -2390,14 +1487,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a05a529ec6fc8a47869bfb6ecd2e4ed
-      internalID: 1507393486
+      spriteID: 93a181c11ada7fb4b82ec9278fd096f4
+      internalID: 268337419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_108
+      name: 123_Assets_CHARACTER_5_65
       rect:
         serializedVersion: 2
         x: 2112
@@ -2411,14 +1508,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e05da05f82ae0d74cbc805111ec218df
-      internalID: -1349274221
+      spriteID: c85cdbc18d050c74f853bd4fee10e258
+      internalID: 326071121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_109
+      name: 123_Assets_CHARACTER_5_66
       rect:
         serializedVersion: 2
         x: 2208
@@ -2432,14 +1529,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5b084b595185ec46be188ef1a009b81
-      internalID: 53187514
+      spriteID: 81b19f37750a74247bb91d65e5ea060f
+      internalID: -45094182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_110
+      name: 123_Assets_CHARACTER_5_67
       rect:
         serializedVersion: 2
         x: 2304
@@ -2453,14 +1550,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad7374cf6410ab44e9baf989f550a838
-      internalID: 1953683021
+      spriteID: 29f87e20ae9175c43850228d48777825
+      internalID: 81369123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_111
+      name: 123_Assets_CHARACTER_5_68
       rect:
         serializedVersion: 2
         x: 2400
@@ -2474,14 +1571,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7bb3b7a9fd3f484ea59bf86aac83256
-      internalID: -508910564
+      spriteID: c28f899580ae6ff40a133abb55f47d2f
+      internalID: 1491203681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_112
+      name: 123_Assets_CHARACTER_5_69
       rect:
         serializedVersion: 2
         x: 2496
@@ -2495,14 +1592,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bde9dc2b0a218954da9b4f23e6aa34f2
-      internalID: -1332835864
+      spriteID: e6b03b7c487dde143b371ac27c4f4eef
+      internalID: -1169452862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_113
+      name: 123_Assets_CHARACTER_5_70
       rect:
         serializedVersion: 2
         x: 2592
@@ -2516,14 +1613,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e62971016fa146349af74f8f5d5c078d
-      internalID: 597583840
+      spriteID: e39b871772b6d4e458d3b5f6f11f10a1
+      internalID: -1554014345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_114
+      name: 123_Assets_CHARACTER_5_71
       rect:
         serializedVersion: 2
         x: 2688
@@ -2537,14 +1634,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afbc7aafe3a5f69428905bb962d9f6be
-      internalID: -1047592928
+      spriteID: d39b02b135a202e44bc8583efa218c1d
+      internalID: -132315695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_115
+      name: 123_Assets_CHARACTER_5_72
       rect:
         serializedVersion: 2
         x: 2784
@@ -2558,14 +1655,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13de4ddec63cef04bb8b67ed11a6e7dd
-      internalID: -210706625
+      spriteID: 5c8ae52a183cf0646886871218b448d5
+      internalID: -221959601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_116
+      name: 123_Assets_CHARACTER_5_73
       rect:
         serializedVersion: 2
         x: 2880
@@ -2579,14 +1676,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f51ac51d9d255c945b4aebbca9ca6ec5
-      internalID: 913539921
+      spriteID: d5ecbd424d61e50448c7adf109c8d664
+      internalID: -1918011463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_117
+      name: 123_Assets_CHARACTER_5_74
       rect:
         serializedVersion: 2
         x: 2976
@@ -2600,14 +1697,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f757b4c77a60c545a5b6a8d7b004dd3
-      internalID: 840027129
+      spriteID: 4bf2bc9a022f42f4bb61905ac7572bd3
+      internalID: 1369800895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_118
+      name: 123_Assets_CHARACTER_5_75
       rect:
         serializedVersion: 2
         x: 3072
@@ -2621,14 +1718,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e85f09d124e1d74ab068b266268202c
-      internalID: -2058095006
+      spriteID: b3cc3091daf7e0d488f5af51088883a3
+      internalID: -1710803398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_119
+      name: 123_Assets_CHARACTER_5_76
       rect:
         serializedVersion: 2
         x: 3168
@@ -2642,14 +1739,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c4d2f51ba11a194da60fa9beddc7401
-      internalID: 1654599033
+      spriteID: a627d56b276b1bf45bf3c99f5b1db19c
+      internalID: -1199002092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_120
+      name: 123_Assets_CHARACTER_5_77
       rect:
         serializedVersion: 2
         x: 3264
@@ -2663,14 +1760,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63167deb6a3a5dc44beb0db23b5c9a3d
-      internalID: 258737839
+      spriteID: af8ce12fec94c3b4c8510ff4cf7c3876
+      internalID: 968215356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_121
+      name: 123_Assets_CHARACTER_5_78
       rect:
         serializedVersion: 2
         x: 3360
@@ -2684,14 +1781,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03cb010a43770f24686775e761e8dca2
-      internalID: -623257252
+      spriteID: 7e74e253b8b01824199d2de3a9b13032
+      internalID: -880574729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_122
+      name: 123_Assets_CHARACTER_5_79
       rect:
         serializedVersion: 2
         x: 3456
@@ -2705,14 +1802,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0be24fb75b98b14ab37b413cd0f0b0f
-      internalID: -51969481
+      spriteID: 1ee584d600551d044b22c65b4d883a9f
+      internalID: -654713267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_123
+      name: 123_Assets_CHARACTER_5_80
       rect:
         serializedVersion: 2
         x: 3552
@@ -2726,14 +1823,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23b06514c2fbf7e4eba0f122eb606707
-      internalID: -349414866
+      spriteID: bef6bdd5d8b218c45a35dca4951c4d3f
+      internalID: 1953204106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_124
+      name: 123_Assets_CHARACTER_5_81
       rect:
         serializedVersion: 2
         x: 3648
@@ -2747,14 +1844,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f9951c8ed15e1b42b4d071555769556
-      internalID: 1637598357
+      spriteID: 50f0dccf6c0c9614f89d6e69becc499b
+      internalID: 891756463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_125
+      name: 123_Assets_CHARACTER_5_82
       rect:
         serializedVersion: 2
         x: 3744
@@ -2768,14 +1865,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f76dfa0abdbea814797fc64162bc8743
-      internalID: 353067445
+      spriteID: 65265ced61b4fdb489b29920a3fc24c9
+      internalID: 1193798986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_126
+      name: 123_Assets_CHARACTER_5_83
       rect:
         serializedVersion: 2
         x: 3840
@@ -2789,14 +1886,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c721170648679e42927a56817777511
-      internalID: 2078075012
+      spriteID: ddac421350918494ab3e24717272b7c1
+      internalID: -1331450471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_127
+      name: 123_Assets_CHARACTER_5_84
       rect:
         serializedVersion: 2
         x: 3936
@@ -2810,14 +1907,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94afac0375b282a46b2987323e067e09
-      internalID: 1188830783
+      spriteID: 90d5dbd78b205ee40962f106a40e869c
+      internalID: 330926959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_128
+      name: 123_Assets_CHARACTER_5_85
       rect:
         serializedVersion: 2
         x: 4032
@@ -2831,14 +1928,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9de112456711644459ea69866ee1166f
-      internalID: -1043701316
+      spriteID: 3628df0bcf9bfb846a76b8034ebc7e13
+      internalID: 1960831521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_129
+      name: 123_Assets_CHARACTER_5_86
       rect:
         serializedVersion: 2
         x: 0
@@ -2852,14 +1949,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e24ea19e72ef6cc4ca7e1c3cf2f3557e
-      internalID: -1766533902
+      spriteID: fa456fff9fc6a7b4ca7da941a8a8ab3f
+      internalID: 1879854060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_130
+      name: 123_Assets_CHARACTER_5_87
       rect:
         serializedVersion: 2
         x: 96
@@ -2873,14 +1970,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b522e6b0d7b61634a81aee1ed43a364b
-      internalID: 830133501
+      spriteID: 733d1f57bdf148f44bcb7a7998b9af1d
+      internalID: -772384739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_131
+      name: 123_Assets_CHARACTER_5_88
       rect:
         serializedVersion: 2
         x: 192
@@ -2894,14 +1991,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edc7fa7855a657a408c9a2aad03ae351
-      internalID: 531128582
+      spriteID: 38912a721b87b724398003f8be3cd717
+      internalID: 1080209346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_132
+      name: 123_Assets_CHARACTER_5_89
       rect:
         serializedVersion: 2
         x: 288
@@ -2915,8 +2012,806 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c3cc98ece5c6e54790b7fd48e1e196f
-      internalID: -2137522450
+      spriteID: 5fe3fac7324b72845a588829ce2f8915
+      internalID: -1472709457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_90
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525e27e5028eb904a918582010ec946c
+      internalID: -845682710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_91
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdf425fed9993a4997680e7c1a648ca
+      internalID: -1694872240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_92
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d16218863540f5438725655bbdcdebf
+      internalID: -1229913757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_93
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1018cc1b35191242b312fd9cd3167ff
+      internalID: 220862612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_94
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ba4cbe1a63714479c3df6a7b1d9833
+      internalID: 1367248352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_95
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5aac2428739a3488f48727666139cf
+      internalID: 149686936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_96
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ce893e3ba84144ebfa777e09c0c3d4
+      internalID: 1362001504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_97
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4043a0eeda4b64b896e4e402a7d4d9
+      internalID: 4892508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_98
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbc794bfa7841348b5f47a65a561093
+      internalID: 1327776033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_99
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8df1e6c94553f94c962cf7701d491d8
+      internalID: -151483865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_100
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6ba3c914776324681f4bd4734b6407
+      internalID: 889972488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_101
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2772d024c327a004e92e3d3acd5cdfce
+      internalID: 1856503484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9855dea2e67fafe4ba7068afd5b51cd1
+      internalID: -1377850183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_103
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bd96432017e284cafff1da47f8e853
+      internalID: 392026789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_104
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7669ec90c47137341be3f87c5608568b
+      internalID: 265368343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_105
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ded926b72074e14fb67733dcd9ed105
+      internalID: 1140279453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_106
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55ed8a480c292445955fddcd55fa73f
+      internalID: 369789717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_107
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f4db3b76883a84c9a5626d82e54e32
+      internalID: -960739285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_108
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95dbb5bed2942ff4c9841c6adb9180c8
+      internalID: 1155675193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_109
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7955b30395fb6419765d4d121a801f
+      internalID: 1105463598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_110
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c886875c175fe458dc1ed1fca59c05
+      internalID: 2056154264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_111
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd957546fb0d39847b3fa4457f2377c1
+      internalID: -2107230372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_112
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11446a894900bbf409b21f530e2422c0
+      internalID: 2010547585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_113
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5425243d7fc81d418fa4157a89de5f7
+      internalID: -191830992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_114
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae27f8add367bf458dc0500fe0fb346
+      internalID: 1292747874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_115
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e082f1b0159c924690f6cfe7106231b
+      internalID: -1796205395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_116
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a993807bb42762c4e896bca81d85e48c
+      internalID: 1246349598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_117
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd11285ff80544449a32e1c3f588a86
+      internalID: 1599275626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_118
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53228ea39e80b3548bfd88ee84e7f4e1
+      internalID: 793174536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_119
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a3ec16e303f3e409e97b9ee87c873e
+      internalID: 817642505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_120
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fa7d49c7d1b684d8639ffb2b17793e
+      internalID: -1841733247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_121
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8361fcee39f03f543b1ffc9e6e93f442
+      internalID: 1998018858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_122
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214c5b50464fa3344b0295db01fcc6cc
+      internalID: -138115190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_123
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd45a35b3dc0614492250f0d269fd93
+      internalID: -1006149682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_124
+      rect:
+        serializedVersion: 2
+        x: 3648
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda2f00e52a750d48bef160d10552a23
+      internalID: -1758508622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_125
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359e72be7a6afdf4a86a9311ac2879a9
+      internalID: 1295499864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_126
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d48c99291ec3b4e960d9a5c89f246d
+      internalID: 2131934671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123_Assets_CHARACTER_5_127
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e736fe62d6d11145bd914143687a6f3
+      internalID: -2054702951
       vertices: []
       indices: 
       edges: []
@@ -2932,139 +2827,134 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      63_Assets_STINKUBUS_1_85: -630568944
-      63_Assets_STINKUBUS_1_97: 1726908832
-      63_Assets_STINKUBUS_1_20: 1425391655
-      63_Assets_STINKUBUS_1_87: 1320660605
-      63_Assets_STINKUBUS_1_125: 353067445
-      63_Assets_STINKUBUS_1_1: -1944316070
-      63_Assets_STINKUBUS_1_114: -1047592928
-      63_Assets_STINKUBUS_1_118: -2058095006
-      63_Assets_STINKUBUS_1_34: -83335951
-      63_Assets_STINKUBUS_1_19: 2034239633
-      63_Assets_STINKUBUS_1_15: 1037103268
-      63_Assets_STINKUBUS_1_93: -917564918
-      63_Assets_STINKUBUS_1_21: -593127088
-      63_Assets_STINKUBUS_1_79: -1675245730
-      63_Assets_STINKUBUS_1_33: -1071378836
-      63_Assets_STINKUBUS_1_117: 840027129
-      63_Assets_STINKUBUS_1_101: 986872636
-      63_Assets_STINKUBUS_1_27: 1366545020
-      63_Assets_STINKUBUS_1_67: 116837445
-      63_Assets_STINKUBUS_1_2: 799237303
-      63_Assets_STINKUBUS_1_4: 1479586387
-      63_Assets_STINKUBUS_1_44: -154452914
-      63_Assets_STINKUBUS_1_49: 614264000
-      63_Assets_STINKUBUS_1_129: -1766533902
-      63_Assets_STINKUBUS_1_37: 2141239027
-      63_Assets_STINKUBUS_1_9: -1136727964
-      63_Assets_STINKUBUS_1_26: 360615492
-      63_Assets_STINKUBUS_1_7: -1154727951
-      63_Assets_STINKUBUS_1_112: -1332835864
-      63_Assets_STINKUBUS_1_29: 1576099898
-      63_Assets_STINKUBUS_1_107: 1507393486
-      63_Assets_STINKUBUS_1_122: -51969481
-      63_Assets_STINKUBUS_1_18: 6697877
-      63_Assets_STINKUBUS_1_83: -213894473
-      63_Assets_STINKUBUS_1_52: -73403611
-      63_Assets_STINKUBUS_1_8: 1837625714
-      63_Assets_STINKUBUS_1_43: -506056245
-      63_Assets_STINKUBUS_1_42: 1189942876
-      63_Assets_STINKUBUS_1_74: 1550221262
-      63_Assets_STINKUBUS_1_115: -210706625
-      63_Assets_STINKUBUS_1_51: -862981095
-      63_Assets_STINKUBUS_1_131: 531128582
-      63_Assets_STINKUBUS_1_32: -1798947165
-      63_Assets_STINKUBUS_1_65: 566074773
-      63_Assets_STINKUBUS_1_120: 258737839
-      63_Assets_STINKUBUS_1_64: -670405303
-      63_Assets_STINKUBUS_1_111: -508910564
-      63_Assets_STINKUBUS_1_71: 1247766726
-      63_Assets_STINKUBUS_1_12: 478088755
-      63_Assets_STINKUBUS_1_55: 1456148090
-      63_Assets_STINKUBUS_1_99: 802489634
-      63_Assets_STINKUBUS_1_46: 1859933643
-      63_Assets_STINKUBUS_1_48: 1758910227
-      63_Assets_STINKUBUS_1_123: -349414866
-      63_Assets_STINKUBUS_1_128: -1043701316
-      63_Assets_STINKUBUS_1_92: 477951304
-      63_Assets_STINKUBUS_1_103: 1022937011
-      63_Assets_STINKUBUS_1_50: 37138433
-      63_Assets_STINKUBUS_1_17: -1749873341
-      63_Assets_STINKUBUS_1_38: 1783455609
-      63_Assets_STINKUBUS_1_100: -408574802
-      63_Assets_STINKUBUS_1_62: -340229529
-      63_Assets_STINKUBUS_1_94: 2013957888
-      63_Assets_STINKUBUS_1_31: 472590687
-      63_Assets_STINKUBUS_1_70: 861443133
-      63_Assets_STINKUBUS_1_47: 2071919712
-      63_Assets_STINKUBUS_1_98: 1957664673
-      63_Assets_STINKUBUS_1_45: 604407566
-      63_Assets_STINKUBUS_1_35: -298268715
-      63_Assets_STINKUBUS_1_102: -1637008175
-      63_Assets_STINKUBUS_1_108: -1349274221
-      63_Assets_STINKUBUS_1_72: -2015800128
-      63_Assets_STINKUBUS_1_11: -324246791
-      63_Assets_STINKUBUS_1_104: 1291982827
-      63_Assets_STINKUBUS_1_73: 1060179201
-      63_Assets_STINKUBUS_1_113: 597583840
-      63_Assets_STINKUBUS_1_60: 1680103764
-      63_Assets_STINKUBUS_1_30: 1334436381
-      63_Assets_STINKUBUS_1_90: 1475262772
-      63_Assets_STINKUBUS_1_56: -1956101929
-      63_Assets_STINKUBUS_1_86: -67279972
-      63_Assets_STINKUBUS_1_39: -1825521958
-      63_Assets_STINKUBUS_1_10: 2129561284
-      63_Assets_STINKUBUS_1_110: 1953683021
-      63_Assets_STINKUBUS_1_24: -1213662128
-      63_Assets_STINKUBUS_1_54: -1556642185
-      63_Assets_STINKUBUS_1_3: -922877397
-      63_Assets_STINKUBUS_1_57: 1801630033
-      63_Assets_STINKUBUS_1_77: -647534398
-      63_Assets_STINKUBUS_1_88: 1311780966
-      63_Assets_STINKUBUS_1_105: -1959761705
-      63_Assets_STINKUBUS_1_109: 53187514
-      63_Assets_STINKUBUS_1_61: 1707415488
-      63_Assets_STINKUBUS_1_96: 2046048513
-      63_Assets_STINKUBUS_1_89: 1480052590
-      63_Assets_STINKUBUS_1_40: 591657782
-      63_Assets_STINKUBUS_1_16: -2035044390
-      63_Assets_STINKUBUS_1_22: 765093911
-      63_Assets_STINKUBUS_1_84: 303010513
-      63_Assets_STINKUBUS_1_23: -878805918
-      63_Assets_STINKUBUS_1_116: 913539921
-      63_Assets_STINKUBUS_1_0: -1710414783
-      63_Assets_STINKUBUS_1_106: -1763393863
-      63_Assets_STINKUBUS_1_80: -1481259431
-      63_Assets_STINKUBUS_1_82: -437574942
-      63_Assets_STINKUBUS_1_25: -799274764
-      63_Assets_STINKUBUS_1_59: -8846066
-      63_Assets_STINKUBUS_1_78: -964316590
-      63_Assets_STINKUBUS_1_36: 2025748243
-      63_Assets_STINKUBUS_1_13: 13428871
-      63_Assets_STINKUBUS_1_6: -1479933560
-      63_Assets_STINKUBUS_1_91: 1576238227
-      63_Assets_STINKUBUS_1_132: -2137522450
-      63_Assets_STINKUBUS_1_124: 1637598357
-      63_Assets_STINKUBUS_1_14: -1988718575
-      63_Assets_STINKUBUS_1_28: -1990107253
-      63_Assets_STINKUBUS_1_58: -1706687134
-      63_Assets_STINKUBUS_1_66: -1942732805
-      63_Assets_STINKUBUS_1_68: 1671081685
-      63_Assets_STINKUBUS_1_69: -1780124122
-      63_Assets_STINKUBUS_1_121: -623257252
-      63_Assets_STINKUBUS_1_5: -1270197477
-      63_Assets_STINKUBUS_1_53: 2146204775
-      63_Assets_STINKUBUS_1_41: 1724897861
-      63_Assets_STINKUBUS_1_75: -292200232
-      63_Assets_STINKUBUS_1_81: 544953205
-      63_Assets_STINKUBUS_1_76: 1678185225
-      63_Assets_STINKUBUS_1_130: 830133501
-      63_Assets_STINKUBUS_1_95: 754397865
-      63_Assets_STINKUBUS_1_127: 1188830783
-      63_Assets_STINKUBUS_1_63: -359706182
-      63_Assets_STINKUBUS_1_126: 2078075012
-      63_Assets_STINKUBUS_1_119: 1654599033
+      123_Assets_CHARACTER_5_79: -654713267
+      123_Assets_CHARACTER_5_38: 326002532
+      123_Assets_CHARACTER_5_85: 1960831521
+      123_Assets_CHARACTER_5_83: -1331450471
+      123_Assets_CHARACTER_5_24: 2044233088
+      123_Assets_CHARACTER_5_40: -1106615250
+      123_Assets_CHARACTER_5_33: -1069221777
+      123_Assets_CHARACTER_5_31: -1850711516
+      123_Assets_CHARACTER_5_73: -1918011463
+      123_Assets_CHARACTER_5_18: -96976034
+      123_Assets_CHARACTER_5_19: -968258757
+      123_Assets_CHARACTER_5_45: 1031323058
+      123_Assets_CHARACTER_5_111: -2107230372
+      123_Assets_CHARACTER_5_54: 1804327538
+      123_Assets_CHARACTER_5_80: 1953204106
+      123_Assets_CHARACTER_5_122: -138115190
+      123_Assets_CHARACTER_5_108: 1155675193
+      123_Assets_CHARACTER_5_123: -1006149682
+      123_Assets_CHARACTER_5_69: -1169452862
+      123_Assets_CHARACTER_5_47: -644792560
+      123_Assets_CHARACTER_5_114: 1292747874
+      123_Assets_CHARACTER_5_17: 1877113639
+      123_Assets_CHARACTER_5_89: -1472709457
+      123_Assets_CHARACTER_5_60: 336585756
+      123_Assets_CHARACTER_5_126: 2131934671
+      123_Assets_CHARACTER_5_91: -1694872240
+      123_Assets_CHARACTER_5_15: 1928821151
+      123_Assets_CHARACTER_5_20: -1770120286
+      123_Assets_CHARACTER_5_51: 1211943315
+      123_Assets_CHARACTER_5_52: 598227769
+      123_Assets_CHARACTER_5_26: 153602783
+      123_Assets_CHARACTER_5_8: -1385152832
+      123_Assets_CHARACTER_5_16: -1495657870
+      123_Assets_CHARACTER_5_6: -1195615099
+      123_Assets_CHARACTER_5_113: -191830992
+      123_Assets_CHARACTER_5_110: 2056154264
+      123_Assets_CHARACTER_5_117: 1599275626
+      123_Assets_CHARACTER_5_82: 1193798986
+      123_Assets_CHARACTER_5_71: -132315695
+      123_Assets_CHARACTER_5_84: 330926959
+      123_Assets_CHARACTER_5_29: -1061947270
+      123_Assets_CHARACTER_5_70: -1554014345
+      123_Assets_CHARACTER_5_81: 891756463
+      123_Assets_CHARACTER_5_97: 4892508
+      123_Assets_CHARACTER_5_103: 392026789
+      123_Assets_CHARACTER_5_64: 268337419
+      123_Assets_CHARACTER_5_34: 647829327
+      123_Assets_CHARACTER_5_22: 1388698786
+      123_Assets_CHARACTER_5_105: 1140279453
+      123_Assets_CHARACTER_5_107: -960739285
+      123_Assets_CHARACTER_5_44: 568174069
+      123_Assets_CHARACTER_5_32: 683063328
+      123_Assets_CHARACTER_5_102: -1377850183
+      123_Assets_CHARACTER_5_75: -1710803398
+      123_Assets_CHARACTER_5_95: 149686936
+      123_Assets_CHARACTER_5_92: -1229913757
+      123_Assets_CHARACTER_5_127: -2054702951
+      123_Assets_CHARACTER_5_125: 1295499864
+      123_Assets_CHARACTER_5_2: -266840965
+      123_Assets_CHARACTER_5_119: 817642505
+      123_Assets_CHARACTER_5_9: -576055980
+      123_Assets_CHARACTER_5_3: -2073124667
+      123_Assets_CHARACTER_5_116: 1246349598
+      123_Assets_CHARACTER_5_76: -1199002092
+      123_Assets_CHARACTER_5_27: -375653382
+      123_Assets_CHARACTER_5_66: -45094182
+      123_Assets_CHARACTER_5_99: -151483865
+      123_Assets_CHARACTER_5_101: 1856503484
+      123_Assets_CHARACTER_5_7: -1840159627
+      123_Assets_CHARACTER_5_53: 1893824997
+      123_Assets_CHARACTER_5_118: 793174536
+      123_Assets_CHARACTER_5_59: 1299544015
+      123_Assets_CHARACTER_5_10: -794345710
+      123_Assets_CHARACTER_5_57: 1717639069
+      123_Assets_CHARACTER_5_93: 220862612
+      123_Assets_CHARACTER_5_23: 66436257
+      123_Assets_CHARACTER_5_63: 253666902
+      123_Assets_CHARACTER_5_78: -880574729
+      123_Assets_CHARACTER_5_0: 627042336
+      123_Assets_CHARACTER_5_30: -462493387
+      123_Assets_CHARACTER_5_49: -1671140648
+      123_Assets_CHARACTER_5_62: -1792005433
+      123_Assets_CHARACTER_5_13: 1075616345
+      123_Assets_CHARACTER_5_67: 81369123
+      123_Assets_CHARACTER_5_58: -1587533451
+      123_Assets_CHARACTER_5_61: -145831322
+      123_Assets_CHARACTER_5_104: 265368343
+      123_Assets_CHARACTER_5_121: 1998018858
+      123_Assets_CHARACTER_5_39: 355038284
+      123_Assets_CHARACTER_5_14: 1084247158
+      123_Assets_CHARACTER_5_87: -772384739
+      123_Assets_CHARACTER_5_120: -1841733247
+      123_Assets_CHARACTER_5_109: 1105463598
+      123_Assets_CHARACTER_5_98: 1327776033
+      123_Assets_CHARACTER_5_68: 1491203681
+      123_Assets_CHARACTER_5_41: 108664479
+      123_Assets_CHARACTER_5_50: -386845761
+      123_Assets_CHARACTER_5_12: 1250174437
+      123_Assets_CHARACTER_5_72: -221959601
+      123_Assets_CHARACTER_5_124: -1758508622
+      123_Assets_CHARACTER_5_28: 1136705806
+      123_Assets_CHARACTER_5_1: 363220154
+      123_Assets_CHARACTER_5_100: 889972488
+      123_Assets_CHARACTER_5_11: 2036068267
+      123_Assets_CHARACTER_5_42: -1197348526
+      123_Assets_CHARACTER_5_77: 968215356
+      123_Assets_CHARACTER_5_4: -1677087004
+      123_Assets_CHARACTER_5_56: -748155271
+      123_Assets_CHARACTER_5_106: 369789717
+      123_Assets_CHARACTER_5_115: -1796205395
+      123_Assets_CHARACTER_5_96: 1362001504
+      123_Assets_CHARACTER_5_5: 624185496
+      123_Assets_CHARACTER_5_35: 1187079116
+      123_Assets_CHARACTER_5_55: 1469040495
+      123_Assets_CHARACTER_5_37: 844252946
+      123_Assets_CHARACTER_5_112: 2010547585
+      123_Assets_CHARACTER_5_21: -1501211447
+      123_Assets_CHARACTER_5_86: 1879854060
+      123_Assets_CHARACTER_5_65: 326071121
+      123_Assets_CHARACTER_5_48: -2025016641
+      123_Assets_CHARACTER_5_25: 682118387
+      123_Assets_CHARACTER_5_94: 1367248352
+      123_Assets_CHARACTER_5_74: 1369800895
+      123_Assets_CHARACTER_5_90: -845682710
+      123_Assets_CHARACTER_5_88: 1080209346
+      123_Assets_CHARACTER_5_46: 2094738745
+      123_Assets_CHARACTER_5_36: -1308717735
+      123_Assets_CHARACTER_5_43: -277634196
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 54aef3b72cce9457a9ec348523ace821
+guid: 41117c99b451d4c2e80c29c12bb89370
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,910 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 455f07d26046a8c4a8505d811d2663d1
-      internalID: -1710414783
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_1
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84cdf580c49624c45b98a4b677af818e
-      internalID: -1944316070
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_2
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21a49c35421edbb45bdf26260d806e28
-      internalID: 799237303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_3
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0808ae6f8e22a7045ada3b612a5ad609
-      internalID: -922877397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_4
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f2f3f86f99f7ee14a9c73415bdf91c73
-      internalID: 1479586387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_5
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 215bf5b8cfefbff4390249b72b5a48a1
-      internalID: -1270197477
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_6
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01fdc712ff7a1b343ad32ed88c9251ba
-      internalID: -1479933560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_7
-      rect:
-        serializedVersion: 2
-        x: 672
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83d9ecb5f04b00d4d8ddf84ef5ebbb54
-      internalID: -1154727951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_8
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d17fd1e3aee6fa64d8776adc0c5abbe5
-      internalID: 1837625714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_9
-      rect:
-        serializedVersion: 2
-        x: 864
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87bc0d2ecac06c24582809919c3e5a41
-      internalID: -1136727964
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_10
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db9de63f2c5cb694babdf7d806f14a20
-      internalID: 2129561284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_11
-      rect:
-        serializedVersion: 2
-        x: 1056
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e02b9cf2cae5ab4d8c862e144013be0
-      internalID: -324246791
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_12
-      rect:
-        serializedVersion: 2
-        x: 1152
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 222170fbb95127e499d545e271420040
-      internalID: 478088755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_13
-      rect:
-        serializedVersion: 2
-        x: 1248
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d4475ab6520c424e94860ce68dbef3b
-      internalID: 13428871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_14
-      rect:
-        serializedVersion: 2
-        x: 1344
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a230935d231d33e4286e787bb3e4f8f6
-      internalID: -1988718575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_15
-      rect:
-        serializedVersion: 2
-        x: 1440
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94c82fdd25310694fbc685be09b4b318
-      internalID: 1037103268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_16
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff81bcaea48d15944b582f0f7c1e28b0
-      internalID: -2035044390
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_17
-      rect:
-        serializedVersion: 2
-        x: 1632
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90b2a72051e8b2941abe772fe0ce74da
-      internalID: -1749873341
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_18
-      rect:
-        serializedVersion: 2
-        x: 1728
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 86b38b2a54848b644b00e687ceca029e
-      internalID: 6697877
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_19
-      rect:
-        serializedVersion: 2
-        x: 1824
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 608100751841a8841a209676ba3c66c3
-      internalID: 2034239633
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_20
-      rect:
-        serializedVersion: 2
-        x: 1920
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7422ca1f961b28408ac01ae6c0c7620
-      internalID: 1425391655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_21
-      rect:
-        serializedVersion: 2
-        x: 2016
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b367503dd8d37540a5765e8845df0ca
-      internalID: -593127088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_22
-      rect:
-        serializedVersion: 2
-        x: 2112
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92a1a0d0749045a418ef335c8b18b641
-      internalID: 765093911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_23
-      rect:
-        serializedVersion: 2
-        x: 2208
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a0396d8224a21f34c835e3dfebf40d8b
-      internalID: -878805918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_24
-      rect:
-        serializedVersion: 2
-        x: 2304
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b17eb2ed43823cf4d92b2393a15d8e2b
-      internalID: -1213662128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_25
-      rect:
-        serializedVersion: 2
-        x: 2400
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3e393d2f35418345a5971c811406223
-      internalID: -799274764
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_26
-      rect:
-        serializedVersion: 2
-        x: 2496
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a736c72dd6b806d4b8891d85cba83294
-      internalID: 360615492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_27
-      rect:
-        serializedVersion: 2
-        x: 2592
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25544d410fbc8a44a99ed108498aa2d9
-      internalID: 1366545020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_28
-      rect:
-        serializedVersion: 2
-        x: 2688
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6244029e16ab14048a1b412046ae2d62
-      internalID: -1990107253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_29
-      rect:
-        serializedVersion: 2
-        x: 2784
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ff864e398baca84c9f18fc9f9c28855
-      internalID: 1576099898
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_30
-      rect:
-        serializedVersion: 2
-        x: 2880
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f0782062bbc3e2b46be448f8b4df3ce4
-      internalID: 1334436381
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_31
-      rect:
-        serializedVersion: 2
-        x: 2976
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94b2c80d4fcbe1542b769234c221f28f
-      internalID: 472590687
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_32
-      rect:
-        serializedVersion: 2
-        x: 3072
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22871d861402d6147b8bfbacb4985bb2
-      internalID: -1798947165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_33
-      rect:
-        serializedVersion: 2
-        x: 3168
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8116eaf925b1fd479f00b33d11643cc
-      internalID: -1071378836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_34
-      rect:
-        serializedVersion: 2
-        x: 3264
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cce9b39879a154e40b61f88720c75f36
-      internalID: -83335951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_35
-      rect:
-        serializedVersion: 2
-        x: 3360
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a64f4ef6a3606d04c8d2bdef1b6366d6
-      internalID: -298268715
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_36
-      rect:
-        serializedVersion: 2
-        x: 3456
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f186a3ab9d6c1a4fba591fa49328e27
-      internalID: 2025748243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_37
-      rect:
-        serializedVersion: 2
-        x: 3552
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 09a32ed5ddaa0d64299108d5c8d6db66
-      internalID: 2141239027
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_38
-      rect:
-        serializedVersion: 2
-        x: 3648
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 642e38b3c34a81b448d0bf75f4c34341
-      internalID: 1783455609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_39
-      rect:
-        serializedVersion: 2
-        x: 3744
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1eedbda32d20a5946a7792dcb402c66e
-      internalID: -1825521958
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_40
-      rect:
-        serializedVersion: 2
-        x: 3840
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d64867070b11f7b40983e22574472168
-      internalID: 591657782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_41
-      rect:
-        serializedVersion: 2
-        x: 3936
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a587039a077cb747b521b843897d374
-      internalID: 1724897861
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_42
-      rect:
-        serializedVersion: 2
-        x: 4032
-        y: 288
-        width: 96
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd62b3539c071514aaa0dde03d19cb34
-      internalID: 1189942876
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_43
+      name: PlayerSprite1
       rect:
         serializedVersion: 2
         x: 0
@@ -1046,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5245edcc136b9dc4680895075568e527
-      internalID: -506056245
+      spriteID: 0a88d4bd4d382d24cb979c5e361ec693
+      internalID: -1933604965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_44
+      name: PlayerSprite1_1
       rect:
         serializedVersion: 2
         x: 96
@@ -1067,14 +164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d317ed0b50253b478fcbd99042b9173
-      internalID: -154452914
+      spriteID: 827d72f1bdcf73f4fa7825c25734f81e
+      internalID: -216646195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_45
+      name: PlayerSprite1_2
       rect:
         serializedVersion: 2
         x: 192
@@ -1088,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d8723ca2591b92458df89c8b4cec68b
-      internalID: 604407566
+      spriteID: a488e004ac14735409a6bb406ed86bfb
+      internalID: 1176174718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_46
+      name: PlayerSprite1_3
       rect:
         serializedVersion: 2
         x: 288
@@ -1109,14 +206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fee30ea309272ad4aa5fe9722dc417fa
-      internalID: 1859933643
+      spriteID: 3196d2cd43984e64580f8289cdf84aec
+      internalID: -1807025626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_47
+      name: PlayerSprite1_4
       rect:
         serializedVersion: 2
         x: 384
@@ -1130,14 +227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 235fce1e6b713e740ae971d8cda73645
-      internalID: 2071919712
+      spriteID: b3edc8dbe74544a4d912edb71567dcd7
+      internalID: -541771391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_48
+      name: PlayerSprite1_5
       rect:
         serializedVersion: 2
         x: 480
@@ -1151,14 +248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fca59d8fe03bccc429ef2b29ce475554
-      internalID: 1758910227
+      spriteID: 268ab3ef42fff764c8cffabfe6de9dea
+      internalID: -1328070612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_49
+      name: PlayerSprite1_6
       rect:
         serializedVersion: 2
         x: 576
@@ -1172,14 +269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec1ae86b40a145047b7b811391aec6cf
-      internalID: 614264000
+      spriteID: 041c637ed4e078a468d2c7d5c254c6d0
+      internalID: 1791459151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_50
+      name: PlayerSprite1_7
       rect:
         serializedVersion: 2
         x: 672
@@ -1193,14 +290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da556aad3258e3043bcee407c14c2933
-      internalID: 37138433
+      spriteID: bb0a89ca93d67de48b9427fad28e3613
+      internalID: 967499795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_51
+      name: PlayerSprite1_8
       rect:
         serializedVersion: 2
         x: 768
@@ -1214,14 +311,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64658f223f5798142a89d1396aecaae6
-      internalID: -862981095
+      spriteID: 37b1769246a64034ca242f09b86d160c
+      internalID: -1394824332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_52
+      name: PlayerSprite1_9
       rect:
         serializedVersion: 2
         x: 864
@@ -1235,14 +332,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 728d0367bbc667046a95a592b05ca0b2
-      internalID: -73403611
+      spriteID: a9b7d5ce852ecd042bf8e7fbaa3ea5ce
+      internalID: 269684058
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_53
+      name: PlayerSprite1_10
       rect:
         serializedVersion: 2
         x: 960
@@ -1256,14 +353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eacda3057113866478ea29d652eaef2f
-      internalID: 2146204775
+      spriteID: 07b132841ac550c41965cecf6cd85d2d
+      internalID: -1826650726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_54
+      name: PlayerSprite1_11
       rect:
         serializedVersion: 2
         x: 1056
@@ -1277,14 +374,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef508d5b71e30ec4c94bd20aa5a35078
-      internalID: -1556642185
+      spriteID: d98977f61c9948748a1e6404bcdb6f9a
+      internalID: -133971973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_55
+      name: PlayerSprite1_12
       rect:
         serializedVersion: 2
         x: 1152
@@ -1298,14 +395,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 012364eb92dbd6a4aa4a0ae29b4d48b9
-      internalID: 1456148090
+      spriteID: e5d17c97698481f4c9821b2a496786df
+      internalID: 117983624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_56
+      name: PlayerSprite1_13
       rect:
         serializedVersion: 2
         x: 1248
@@ -1319,14 +416,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccdb4c4230c3bb14b860fd2df24a601e
-      internalID: -1956101929
+      spriteID: f4af151b721f8414797cfa2ef45dccd8
+      internalID: -1827075288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_57
+      name: PlayerSprite1_14
       rect:
         serializedVersion: 2
         x: 1344
@@ -1340,14 +437,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00aa3a45be5cda04ba1e95a05ac83121
-      internalID: 1801630033
+      spriteID: 83e838e3966f16c45800b87c20dde679
+      internalID: -470865510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_58
+      name: PlayerSprite1_15
       rect:
         serializedVersion: 2
         x: 1440
@@ -1361,14 +458,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6eea6688dbe4a9348af242ca1baa19c6
-      internalID: -1706687134
+      spriteID: a6219037ddd411445b4a2b6f9f7c670f
+      internalID: 466270519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_59
+      name: PlayerSprite1_16
       rect:
         serializedVersion: 2
         x: 1536
@@ -1382,14 +479,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2694c1bd7b6d96a40a429fbcbb5c8593
-      internalID: -8846066
+      spriteID: c884b9d2e0d88ea4dbeb09c41bbe0f4c
+      internalID: 1157075034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_60
+      name: PlayerSprite1_17
       rect:
         serializedVersion: 2
         x: 1632
@@ -1403,14 +500,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b2f38246b0c79c40bb41a1bc28c39d1
-      internalID: 1680103764
+      spriteID: 7624ae9e481814f4d9b7d1d8c005fdb3
+      internalID: -70110886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_61
+      name: PlayerSprite1_18
       rect:
         serializedVersion: 2
         x: 1728
@@ -1424,14 +521,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 161856963e24fb642a56668b446b183a
-      internalID: 1707415488
+      spriteID: ec192ae74ff94754690bb7f0a54c1b9b
+      internalID: 840603334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_62
+      name: PlayerSprite1_19
       rect:
         serializedVersion: 2
         x: 1824
@@ -1445,14 +542,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3c3c0d2bf7960744837604d71f8372f
-      internalID: -340229529
+      spriteID: 8484b2c5ac6966a45aa7df0aec7225df
+      internalID: -2063925603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_63
+      name: PlayerSprite1_20
       rect:
         serializedVersion: 2
         x: 1920
@@ -1466,14 +563,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31a95d2e4902b9949a12a13ec663c0b9
-      internalID: -359706182
+      spriteID: 2f38f20fcf355d844944824f26f07a87
+      internalID: 1976774080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_64
+      name: PlayerSprite1_21
       rect:
         serializedVersion: 2
         x: 2016
@@ -1487,14 +584,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b92c7b4f2274d9045a7487ae504e0790
-      internalID: -670405303
+      spriteID: 4f6727a9da8ee0b4c966088ceac71792
+      internalID: 1608011835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_65
+      name: PlayerSprite1_22
       rect:
         serializedVersion: 2
         x: 2112
@@ -1508,14 +605,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48bfe53f4bf4a404082545de5192fff4
-      internalID: 566074773
+      spriteID: 8e3c80a426f45b24382f7227aa3de8a4
+      internalID: -248106361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_66
+      name: PlayerSprite1_23
       rect:
         serializedVersion: 2
         x: 2208
@@ -1529,14 +626,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf806f5f39eece64aa58cce0edf9a914
-      internalID: -1942732805
+      spriteID: 2befd94746886e7488ba15e71fbd8096
+      internalID: 512350839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_67
+      name: PlayerSprite1_24
       rect:
         serializedVersion: 2
         x: 2304
@@ -1550,14 +647,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f41db6f004c0df8439bb92f4124fdbca
-      internalID: 116837445
+      spriteID: 639e68e29342cff4a8bd4a3ca46112e8
+      internalID: -590343081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_68
+      name: PlayerSprite1_25
       rect:
         serializedVersion: 2
         x: 2400
@@ -1571,14 +668,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87d26d89f26d0cb4b899a455512f9c31
-      internalID: 1671081685
+      spriteID: 44511c2535d93c343aadf632bbdf6ff7
+      internalID: 342878787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_69
+      name: PlayerSprite1_26
       rect:
         serializedVersion: 2
         x: 2496
@@ -1592,14 +689,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9626205db0d60404bb8a51b7f77df01b
-      internalID: -1780124122
+      spriteID: d54fbd76887e1c544a882f35ce451ada
+      internalID: 355961193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_70
+      name: PlayerSprite1_27
       rect:
         serializedVersion: 2
         x: 2592
@@ -1613,14 +710,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bdb87c997ecb8f49b179f80aa4702c2
-      internalID: 861443133
+      spriteID: 510c6e1835acfd940a496c9607695869
+      internalID: -1270130366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_71
+      name: PlayerSprite1_28
       rect:
         serializedVersion: 2
         x: 2688
@@ -1634,14 +731,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee93fe89511398d41bb866f28de2bc39
-      internalID: 1247766726
+      spriteID: ef7c7c01226f3cc4d80107cca83c35dc
+      internalID: -1490308305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_72
+      name: PlayerSprite1_29
       rect:
         serializedVersion: 2
         x: 2784
@@ -1655,14 +752,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6ccbd910a0223b4b821d29d8a9e5f17
-      internalID: -2015800128
+      spriteID: 1729428c00c96bf4c833acdee826a80a
+      internalID: -378683873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_73
+      name: PlayerSprite1_30
       rect:
         serializedVersion: 2
         x: 2880
@@ -1676,14 +773,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 950dd19856d815c44a3f7ab75784b82f
-      internalID: 1060179201
+      spriteID: b0f565c9194819d4fa11a9dcd7da58b8
+      internalID: -1352804504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_74
+      name: PlayerSprite1_31
       rect:
         serializedVersion: 2
         x: 2976
@@ -1697,14 +794,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4fa0aad85a584944947976849385698
-      internalID: 1550221262
+      spriteID: eceabf3ed3ed8be498a4cac72f4a46ff
+      internalID: -1698394884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_75
+      name: PlayerSprite1_32
       rect:
         serializedVersion: 2
         x: 3072
@@ -1718,14 +815,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd3f7868e5002524a898d405f9df802a
-      internalID: -292200232
+      spriteID: 49e3ad7cc7fa2d24188880f6bc62cdc2
+      internalID: -1539378162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_76
+      name: PlayerSprite1_33
       rect:
         serializedVersion: 2
         x: 3168
@@ -1739,14 +836,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 470f918f1ab7a514e8252c13ac90a25d
-      internalID: 1678185225
+      spriteID: dbe1da6a569562443bead610fe89809e
+      internalID: 817776540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_77
+      name: PlayerSprite1_34
       rect:
         serializedVersion: 2
         x: 3264
@@ -1760,14 +857,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dbf1d0218bed1c46aeb333733949b04
-      internalID: -647534398
+      spriteID: 7c1920f159590c942936c17430389209
+      internalID: -1412277545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_78
+      name: PlayerSprite1_35
       rect:
         serializedVersion: 2
         x: 3360
@@ -1781,14 +878,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 935e6a430437fa844855bd2837bcdc8e
-      internalID: -964316590
+      spriteID: b66688b6e7bb2b84d8e106fe5df249ea
+      internalID: 1775637957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_79
+      name: PlayerSprite1_36
       rect:
         serializedVersion: 2
         x: 3456
@@ -1802,14 +899,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 335c1f1174fbb9b44ae5ecbba73a6450
-      internalID: -1675245730
+      spriteID: d358d934eeca58048af7ddae706a530e
+      internalID: 1228963904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_80
+      name: PlayerSprite1_37
       rect:
         serializedVersion: 2
         x: 3552
@@ -1823,14 +920,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4817340cecb97ed47884be748edf0758
-      internalID: -1481259431
+      spriteID: 6f9444fcadb2a624f955f48a2cdf6783
+      internalID: 458401037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_81
+      name: PlayerSprite1_38
       rect:
         serializedVersion: 2
         x: 3648
@@ -1844,14 +941,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 853ddfa2ff1f01b49ad92407f3a5740f
-      internalID: 544953205
+      spriteID: bcc24c61bfbbc834695e7cad0e2c971d
+      internalID: 639941482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_82
+      name: PlayerSprite1_39
       rect:
         serializedVersion: 2
         x: 3744
@@ -1865,14 +962,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94e0e91e41a81b44e9f2553357eea6d4
-      internalID: -437574942
+      spriteID: 832b24b8db972984a9db1115e16429a8
+      internalID: -1302478495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_83
+      name: PlayerSprite1_40
       rect:
         serializedVersion: 2
         x: 3840
@@ -1886,14 +983,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d16028683f0f5d4683fb9ecfb05b712
-      internalID: -213894473
+      spriteID: 53bb5c07ab484e042ab33598ef880848
+      internalID: 1993225271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_84
+      name: PlayerSprite1_41
       rect:
         serializedVersion: 2
         x: 3936
@@ -1907,14 +1004,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1f94e567dfb3d641a8ba622464d69cb
-      internalID: 303010513
+      spriteID: 7c9f3ca231c9c4f4eac668fa2e5a05f6
+      internalID: -654263700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_85
+      name: PlayerSprite1_42
       rect:
         serializedVersion: 2
         x: 4032
@@ -1928,14 +1025,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca18259d7baf20a4eac1735cdbf85c86
-      internalID: -630568944
+      spriteID: a72c080debae565409a594cde78f2814
+      internalID: -1951573662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_86
+      name: PlayerSprite1_43
       rect:
         serializedVersion: 2
         x: 0
@@ -1949,14 +1046,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 875c533a903f558478414b5ae83db39f
-      internalID: -67279972
+      spriteID: 74e728294b929cc4fa9b57302f4e4194
+      internalID: -834028114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_87
+      name: PlayerSprite1_44
       rect:
         serializedVersion: 2
         x: 96
@@ -1970,14 +1067,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 019b30fed80faec4e90d559e6897a626
-      internalID: 1320660605
+      spriteID: 0c54f94ce274a9a4fb133dd9fa1f2d7e
+      internalID: 1811915962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_88
+      name: PlayerSprite1_45
       rect:
         serializedVersion: 2
         x: 192
@@ -1991,14 +1088,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9b6359ede53f83469f246cc707b7357
-      internalID: 1311780966
+      spriteID: e40e324ffe2d0394693b422720feb826
+      internalID: 350793909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_89
+      name: PlayerSprite1_46
       rect:
         serializedVersion: 2
         x: 288
@@ -2012,14 +1109,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e1c22fc59415f1418177e024d7345e2
-      internalID: 1480052590
+      spriteID: 7c4b22860a991614c8893f8a003fa859
+      internalID: -608035881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_90
+      name: PlayerSprite1_47
       rect:
         serializedVersion: 2
         x: 384
@@ -2033,14 +1130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 217e5842dbddc8c4cbbaceebfd598f84
-      internalID: 1475262772
+      spriteID: f5ffcbaf22d3a444e9fc48b8af712e07
+      internalID: 764804669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_91
+      name: PlayerSprite1_48
       rect:
         serializedVersion: 2
         x: 480
@@ -2054,14 +1151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e1dd668e845ac44ca13c803c358d822
-      internalID: 1576238227
+      spriteID: 7e70d53e80ebca74595106407e0b6740
+      internalID: -1447525251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_92
+      name: PlayerSprite1_49
       rect:
         serializedVersion: 2
         x: 576
@@ -2075,14 +1172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf5ee16003c659647bc9f0447f684a3a
-      internalID: 477951304
+      spriteID: b2397f290c5f5934d95550ae8f72b98a
+      internalID: 241727582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_93
+      name: PlayerSprite1_50
       rect:
         serializedVersion: 2
         x: 672
@@ -2096,14 +1193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 954636dd7c7321c4fa565b4bb7b9d56c
-      internalID: -917564918
+      spriteID: dfe2cbe2a3007354cab2362ed9c55894
+      internalID: 1745091122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_94
+      name: PlayerSprite1_51
       rect:
         serializedVersion: 2
         x: 768
@@ -2117,14 +1214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39b0e18f57e224b4f902f1171c7d5291
-      internalID: 2013957888
+      spriteID: 757ec316a4689214eb6ef96197750527
+      internalID: 310652942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_95
+      name: PlayerSprite1_52
       rect:
         serializedVersion: 2
         x: 864
@@ -2138,14 +1235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b82ac47188aab7e4999588383f44e117
-      internalID: 754397865
+      spriteID: af600fde6f155ec46be05446b5af89f0
+      internalID: -502555263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_96
+      name: PlayerSprite1_53
       rect:
         serializedVersion: 2
         x: 960
@@ -2159,14 +1256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4deae9f4eaaed094bac0ddd74b259606
-      internalID: 2046048513
+      spriteID: bf28ddeede600cb4da3444fd9ced4f4e
+      internalID: -744627950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_97
+      name: PlayerSprite1_54
       rect:
         serializedVersion: 2
         x: 1056
@@ -2180,14 +1277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86daffbd9b3a9b8468cc9fbffd00dafe
-      internalID: 1726908832
+      spriteID: ddaf38cf5895d6e418e34d0783d0664b
+      internalID: 1624294289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_98
+      name: PlayerSprite1_55
       rect:
         serializedVersion: 2
         x: 1152
@@ -2201,14 +1298,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 379c6618b60fc21449765cd491917e55
-      internalID: 1957664673
+      spriteID: c465087ea76140e40b656af783d07826
+      internalID: -1215819394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_99
+      name: PlayerSprite1_56
       rect:
         serializedVersion: 2
         x: 1248
@@ -2222,14 +1319,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27efd8c706682ec49b409d10df56f375
-      internalID: 802489634
+      spriteID: 530fc464b78f8b7479647150b5f01805
+      internalID: 776598154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_100
+      name: PlayerSprite1_57
       rect:
         serializedVersion: 2
         x: 1344
@@ -2243,14 +1340,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1ced0753ee7aef4e9b9f8397919d1ba
-      internalID: -408574802
+      spriteID: 20c39d5eb97d68048a72c53fb7c0ea81
+      internalID: -575392102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_101
+      name: PlayerSprite1_58
       rect:
         serializedVersion: 2
         x: 1440
@@ -2264,14 +1361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa111983b31520a46b04d13fbe549148
-      internalID: 986872636
+      spriteID: d1de776a105377542bc2297d2b9d3773
+      internalID: 1295557776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_102
+      name: PlayerSprite1_59
       rect:
         serializedVersion: 2
         x: 1536
@@ -2285,14 +1382,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2beaa6445099e2c4cabb4f1e27ffa0ae
-      internalID: -1637008175
+      spriteID: 51ee9e84b1c838749863ba28f2de4c3c
+      internalID: -872558432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_103
+      name: PlayerSprite1_60
       rect:
         serializedVersion: 2
         x: 1632
@@ -2306,14 +1403,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26a89f0620170a449ba3210ee9a3a77e
-      internalID: 1022937011
+      spriteID: a1e4df38abba8084d8ddf2f6295be35a
+      internalID: 1474714003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_104
+      name: PlayerSprite1_61
       rect:
         serializedVersion: 2
         x: 1728
@@ -2327,14 +1424,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fea0347f306589d47a0872640bccee80
-      internalID: 1291982827
+      spriteID: 22768c15ceecd22428dc5e5e514a7718
+      internalID: 1015147577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_105
+      name: PlayerSprite1_62
       rect:
         serializedVersion: 2
         x: 1824
@@ -2348,14 +1445,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f3e088cfa964d542907229da59323df
-      internalID: -1959761705
+      spriteID: 7f87f36c87c827c42a75bd713685154f
+      internalID: -322121326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_106
+      name: PlayerSprite1_63
       rect:
         serializedVersion: 2
         x: 1920
@@ -2369,14 +1466,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01786f569f497f74e9b2265a6b01d4af
-      internalID: -1763393863
+      spriteID: c47cc01d1d9da02449f9981dce925c0d
+      internalID: 1176283893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_107
+      name: PlayerSprite1_64
       rect:
         serializedVersion: 2
         x: 2016
@@ -2390,14 +1487,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a05a529ec6fc8a47869bfb6ecd2e4ed
-      internalID: 1507393486
+      spriteID: 3c803ca9f84056141a2566c4476b531d
+      internalID: 1586266017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_108
+      name: PlayerSprite1_65
       rect:
         serializedVersion: 2
         x: 2112
@@ -2411,14 +1508,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e05da05f82ae0d74cbc805111ec218df
-      internalID: -1349274221
+      spriteID: 46db620fb5f177c4dbeb8ec4bbc0cf73
+      internalID: 468256669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_109
+      name: PlayerSprite1_66
       rect:
         serializedVersion: 2
         x: 2208
@@ -2432,14 +1529,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5b084b595185ec46be188ef1a009b81
-      internalID: 53187514
+      spriteID: adbea7326ade9f247a7a97d9b763fffd
+      internalID: 989993308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_110
+      name: PlayerSprite1_67
       rect:
         serializedVersion: 2
         x: 2304
@@ -2453,14 +1550,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad7374cf6410ab44e9baf989f550a838
-      internalID: 1953683021
+      spriteID: 11373b2a72caa4c41a2300b2dbfe0f63
+      internalID: 715176010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_111
+      name: PlayerSprite1_68
       rect:
         serializedVersion: 2
         x: 2400
@@ -2474,14 +1571,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7bb3b7a9fd3f484ea59bf86aac83256
-      internalID: -508910564
+      spriteID: f90ae5783ae62d34b8f0895d6a626e07
+      internalID: 1596958873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_112
+      name: PlayerSprite1_69
       rect:
         serializedVersion: 2
         x: 2496
@@ -2495,14 +1592,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bde9dc2b0a218954da9b4f23e6aa34f2
-      internalID: -1332835864
+      spriteID: e9044897379e3714ea19e5d7d6fd5038
+      internalID: 319084222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_113
+      name: PlayerSprite1_70
       rect:
         serializedVersion: 2
         x: 2592
@@ -2516,14 +1613,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e62971016fa146349af74f8f5d5c078d
-      internalID: 597583840
+      spriteID: cf6e0ef5087b7f143b5286dda843b4ad
+      internalID: -160127575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_114
+      name: PlayerSprite1_71
       rect:
         serializedVersion: 2
         x: 2688
@@ -2537,14 +1634,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afbc7aafe3a5f69428905bb962d9f6be
-      internalID: -1047592928
+      spriteID: 810afbf1d4d453548ab0f974d9259377
+      internalID: -511296488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_115
+      name: PlayerSprite1_72
       rect:
         serializedVersion: 2
         x: 2784
@@ -2558,14 +1655,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13de4ddec63cef04bb8b67ed11a6e7dd
-      internalID: -210706625
+      spriteID: 17f327b73397a5d4fab687e5316e405f
+      internalID: -1085448234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_116
+      name: PlayerSprite1_73
       rect:
         serializedVersion: 2
         x: 2880
@@ -2579,14 +1676,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f51ac51d9d255c945b4aebbca9ca6ec5
-      internalID: 913539921
+      spriteID: 4279ca7a59acb7b408441692e265e550
+      internalID: -1368479417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_117
+      name: PlayerSprite1_74
       rect:
         serializedVersion: 2
         x: 2976
@@ -2600,14 +1697,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f757b4c77a60c545a5b6a8d7b004dd3
-      internalID: 840027129
+      spriteID: d035b92ac3ef56b4994947fe1d22dc2b
+      internalID: -1091784775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_118
+      name: PlayerSprite1_75
       rect:
         serializedVersion: 2
         x: 3072
@@ -2621,14 +1718,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e85f09d124e1d74ab068b266268202c
-      internalID: -2058095006
+      spriteID: 6a2b4d1937680274f841ca0e08e501c2
+      internalID: -386704002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_119
+      name: PlayerSprite1_76
       rect:
         serializedVersion: 2
         x: 3168
@@ -2642,14 +1739,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c4d2f51ba11a194da60fa9beddc7401
-      internalID: 1654599033
+      spriteID: c596363a2a3133e4395d4034124a7658
+      internalID: 1768992064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_120
+      name: PlayerSprite1_77
       rect:
         serializedVersion: 2
         x: 3264
@@ -2663,14 +1760,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63167deb6a3a5dc44beb0db23b5c9a3d
-      internalID: 258737839
+      spriteID: 49b12b7b79b825748a9418ec7585ab13
+      internalID: -918161788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_121
+      name: PlayerSprite1_78
       rect:
         serializedVersion: 2
         x: 3360
@@ -2684,14 +1781,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03cb010a43770f24686775e761e8dca2
-      internalID: -623257252
+      spriteID: 19671e23db07ac04b9d153ccd2129cdf
+      internalID: -1101043566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_122
+      name: PlayerSprite1_79
       rect:
         serializedVersion: 2
         x: 3456
@@ -2705,14 +1802,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0be24fb75b98b14ab37b413cd0f0b0f
-      internalID: -51969481
+      spriteID: ebc42cbd4cb14824283aaf42bdb8c29a
+      internalID: -1240815933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_123
+      name: PlayerSprite1_80
       rect:
         serializedVersion: 2
         x: 3552
@@ -2726,14 +1823,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23b06514c2fbf7e4eba0f122eb606707
-      internalID: -349414866
+      spriteID: 4ffc8ba64cc27a447b95bfcd2e75f3e3
+      internalID: 201724361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_124
+      name: PlayerSprite1_81
       rect:
         serializedVersion: 2
         x: 3648
@@ -2747,14 +1844,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f9951c8ed15e1b42b4d071555769556
-      internalID: 1637598357
+      spriteID: a884d58039b31b14b829356fe8e34feb
+      internalID: -32054576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_125
+      name: PlayerSprite1_82
       rect:
         serializedVersion: 2
         x: 3744
@@ -2768,14 +1865,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f76dfa0abdbea814797fc64162bc8743
-      internalID: 353067445
+      spriteID: 245273508b6721a4ab3d78d39ed63658
+      internalID: 1588132905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_126
+      name: PlayerSprite1_83
       rect:
         serializedVersion: 2
         x: 3840
@@ -2789,14 +1886,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c721170648679e42927a56817777511
-      internalID: 2078075012
+      spriteID: c3f4008c17d6a5149b8408c263f85f1b
+      internalID: -2055093802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_127
+      name: PlayerSprite1_84
       rect:
         serializedVersion: 2
         x: 3936
@@ -2810,14 +1907,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94afac0375b282a46b2987323e067e09
-      internalID: 1188830783
+      spriteID: dff5e93a2fefb184d89a3fb31d1dbe93
+      internalID: -88558613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_128
+      name: PlayerSprite1_85
       rect:
         serializedVersion: 2
         x: 4032
@@ -2831,14 +1928,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9de112456711644459ea69866ee1166f
-      internalID: -1043701316
+      spriteID: c6c78acd6afb87441a22492824d587d1
+      internalID: 169012437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_129
+      name: PlayerSprite1_86
       rect:
         serializedVersion: 2
         x: 0
@@ -2852,14 +1949,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e24ea19e72ef6cc4ca7e1c3cf2f3557e
-      internalID: -1766533902
+      spriteID: b4d961d077fb01d47839c1781ab5dd0b
+      internalID: 808669682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_130
+      name: PlayerSprite1_87
       rect:
         serializedVersion: 2
         x: 96
@@ -2873,14 +1970,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b522e6b0d7b61634a81aee1ed43a364b
-      internalID: 830133501
+      spriteID: 61042bda64f63664498dfd2ac4ed3308
+      internalID: -16343888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_131
+      name: PlayerSprite1_88
       rect:
         serializedVersion: 2
         x: 192
@@ -2894,14 +1991,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edc7fa7855a657a408c9a2aad03ae351
-      internalID: 531128582
+      spriteID: 98a291e26c204ae42a75ad5c4ea583fe
+      internalID: 1699934933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 63_Assets_STINKUBUS_1_132
+      name: PlayerSprite1_89
       rect:
         serializedVersion: 2
         x: 288
@@ -2915,8 +2012,806 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c3cc98ece5c6e54790b7fd48e1e196f
-      internalID: -2137522450
+      spriteID: 54e78889c293d604f82c0c21874d5111
+      internalID: 1768602614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_90
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c3ad405545d4d4cbbc799ede418cf3
+      internalID: -915799133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_91
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8d2b6a58d02e74e863476e4101b897
+      internalID: 2141034553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_92
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71829421f059dff4abf01a7b0d2f5b82
+      internalID: -849128762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_93
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6028f8c5c2f77d1498d2a038d62b9f8a
+      internalID: -1574012358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_94
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64d505332b2ff846abf6c04c82b5630
+      internalID: 869020029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_95
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9878b80b23cc4444cb2aefb129185516
+      internalID: -1386943383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_96
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e80c314575b4cd44a4e4b8df241c431
+      internalID: -1927960805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_97
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de33ea2a46795a149a21643bc0e0b4bc
+      internalID: -1782089300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_98
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73430f8b56ae42c42bf12818deafee24
+      internalID: -1371736967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_99
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e4c3695d9b9cb4a80308ec5e4be963
+      internalID: -933255717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_100
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd6374b991815d4c83b920e78343ec8
+      internalID: -1555837003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_101
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab87ca33944a5094c93c3eec253589cc
+      internalID: -424065195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfd3534c32d7a845b4f4117d01d27e4
+      internalID: -1724840592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_103
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c8b1bd71497ce4696e64e2b64a82e2
+      internalID: 1006867668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_104
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b2c3d63a7f7bf43bd380aafc2f0710
+      internalID: -897012340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_105
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86bd620cee0e1c4fb6cc5dcef4fa736
+      internalID: 1142687782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_106
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a742902da2c62cd428a2df3b3e1c2599
+      internalID: -1288460911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_107
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c618af400d7a94188752a5e8132bb9
+      internalID: -1510432359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_108
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44037ea496ba58c44892fddef0e2374f
+      internalID: 638499542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_109
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3354f05d734f0a94dbf68d0f0bcf58f0
+      internalID: 811790921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_110
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10f2ff5eda399742ad3153a9577457b
+      internalID: -1403000879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_111
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007fce8a3d26bd646895a9e7897dacf0
+      internalID: -1359428379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_112
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8dd8cc54de477e4cb68b95dd4184a5b
+      internalID: 17255562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_113
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac34df5e66c4d649a20d43702b9e996
+      internalID: -1123179055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_114
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645f617be592d6a4fa94859704053e4b
+      internalID: 981980403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_115
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a477b8df88d426846a4583fe8e0851e6
+      internalID: -1929127428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_116
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d6cb1b288350b458958a57e6c40f74
+      internalID: 946908500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_117
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62721c6b35c2f7546b801f05ff7ad0c6
+      internalID: -1172328804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_118
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe093fdef9c5a2847a4143b7302141f0
+      internalID: 2053080620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_119
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e7dc76e22671446a4da16cd4daf229
+      internalID: 683342001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_120
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5417dde1a2dd6134890b1a764ab871a4
+      internalID: 593590255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_121
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcfda93ff15f6f45a74e106ce185b9c
+      internalID: 685670153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_122
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ff76584ef1ed04bb67989985bda438
+      internalID: 444360537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_123
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87089693a27e744a87ddd4898e0c97a
+      internalID: -547672618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_124
+      rect:
+        serializedVersion: 2
+        x: 3648
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ca8a9f5c739e3459459f69c5ce1314
+      internalID: 314030419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_125
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6210d6492be7a8e42a1fad4410f23bfa
+      internalID: 1115259063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_126
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599557665433dc44fae8ee7bbe31363f
+      internalID: 1253054596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerSprite1_127
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa7d35c4ee1fbb44badc3e09ce9df72
+      internalID: -1797475348
       vertices: []
       indices: 
       edges: []
@@ -2932,139 +2827,134 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      63_Assets_STINKUBUS_1_85: -630568944
-      63_Assets_STINKUBUS_1_97: 1726908832
-      63_Assets_STINKUBUS_1_20: 1425391655
-      63_Assets_STINKUBUS_1_87: 1320660605
-      63_Assets_STINKUBUS_1_125: 353067445
-      63_Assets_STINKUBUS_1_1: -1944316070
-      63_Assets_STINKUBUS_1_114: -1047592928
-      63_Assets_STINKUBUS_1_118: -2058095006
-      63_Assets_STINKUBUS_1_34: -83335951
-      63_Assets_STINKUBUS_1_19: 2034239633
-      63_Assets_STINKUBUS_1_15: 1037103268
-      63_Assets_STINKUBUS_1_93: -917564918
-      63_Assets_STINKUBUS_1_21: -593127088
-      63_Assets_STINKUBUS_1_79: -1675245730
-      63_Assets_STINKUBUS_1_33: -1071378836
-      63_Assets_STINKUBUS_1_117: 840027129
-      63_Assets_STINKUBUS_1_101: 986872636
-      63_Assets_STINKUBUS_1_27: 1366545020
-      63_Assets_STINKUBUS_1_67: 116837445
-      63_Assets_STINKUBUS_1_2: 799237303
-      63_Assets_STINKUBUS_1_4: 1479586387
-      63_Assets_STINKUBUS_1_44: -154452914
-      63_Assets_STINKUBUS_1_49: 614264000
-      63_Assets_STINKUBUS_1_129: -1766533902
-      63_Assets_STINKUBUS_1_37: 2141239027
-      63_Assets_STINKUBUS_1_9: -1136727964
-      63_Assets_STINKUBUS_1_26: 360615492
-      63_Assets_STINKUBUS_1_7: -1154727951
-      63_Assets_STINKUBUS_1_112: -1332835864
-      63_Assets_STINKUBUS_1_29: 1576099898
-      63_Assets_STINKUBUS_1_107: 1507393486
-      63_Assets_STINKUBUS_1_122: -51969481
-      63_Assets_STINKUBUS_1_18: 6697877
-      63_Assets_STINKUBUS_1_83: -213894473
-      63_Assets_STINKUBUS_1_52: -73403611
-      63_Assets_STINKUBUS_1_8: 1837625714
-      63_Assets_STINKUBUS_1_43: -506056245
-      63_Assets_STINKUBUS_1_42: 1189942876
-      63_Assets_STINKUBUS_1_74: 1550221262
-      63_Assets_STINKUBUS_1_115: -210706625
-      63_Assets_STINKUBUS_1_51: -862981095
-      63_Assets_STINKUBUS_1_131: 531128582
-      63_Assets_STINKUBUS_1_32: -1798947165
-      63_Assets_STINKUBUS_1_65: 566074773
-      63_Assets_STINKUBUS_1_120: 258737839
-      63_Assets_STINKUBUS_1_64: -670405303
-      63_Assets_STINKUBUS_1_111: -508910564
-      63_Assets_STINKUBUS_1_71: 1247766726
-      63_Assets_STINKUBUS_1_12: 478088755
-      63_Assets_STINKUBUS_1_55: 1456148090
-      63_Assets_STINKUBUS_1_99: 802489634
-      63_Assets_STINKUBUS_1_46: 1859933643
-      63_Assets_STINKUBUS_1_48: 1758910227
-      63_Assets_STINKUBUS_1_123: -349414866
-      63_Assets_STINKUBUS_1_128: -1043701316
-      63_Assets_STINKUBUS_1_92: 477951304
-      63_Assets_STINKUBUS_1_103: 1022937011
-      63_Assets_STINKUBUS_1_50: 37138433
-      63_Assets_STINKUBUS_1_17: -1749873341
-      63_Assets_STINKUBUS_1_38: 1783455609
-      63_Assets_STINKUBUS_1_100: -408574802
-      63_Assets_STINKUBUS_1_62: -340229529
-      63_Assets_STINKUBUS_1_94: 2013957888
-      63_Assets_STINKUBUS_1_31: 472590687
-      63_Assets_STINKUBUS_1_70: 861443133
-      63_Assets_STINKUBUS_1_47: 2071919712
-      63_Assets_STINKUBUS_1_98: 1957664673
-      63_Assets_STINKUBUS_1_45: 604407566
-      63_Assets_STINKUBUS_1_35: -298268715
-      63_Assets_STINKUBUS_1_102: -1637008175
-      63_Assets_STINKUBUS_1_108: -1349274221
-      63_Assets_STINKUBUS_1_72: -2015800128
-      63_Assets_STINKUBUS_1_11: -324246791
-      63_Assets_STINKUBUS_1_104: 1291982827
-      63_Assets_STINKUBUS_1_73: 1060179201
-      63_Assets_STINKUBUS_1_113: 597583840
-      63_Assets_STINKUBUS_1_60: 1680103764
-      63_Assets_STINKUBUS_1_30: 1334436381
-      63_Assets_STINKUBUS_1_90: 1475262772
-      63_Assets_STINKUBUS_1_56: -1956101929
-      63_Assets_STINKUBUS_1_86: -67279972
-      63_Assets_STINKUBUS_1_39: -1825521958
-      63_Assets_STINKUBUS_1_10: 2129561284
-      63_Assets_STINKUBUS_1_110: 1953683021
-      63_Assets_STINKUBUS_1_24: -1213662128
-      63_Assets_STINKUBUS_1_54: -1556642185
-      63_Assets_STINKUBUS_1_3: -922877397
-      63_Assets_STINKUBUS_1_57: 1801630033
-      63_Assets_STINKUBUS_1_77: -647534398
-      63_Assets_STINKUBUS_1_88: 1311780966
-      63_Assets_STINKUBUS_1_105: -1959761705
-      63_Assets_STINKUBUS_1_109: 53187514
-      63_Assets_STINKUBUS_1_61: 1707415488
-      63_Assets_STINKUBUS_1_96: 2046048513
-      63_Assets_STINKUBUS_1_89: 1480052590
-      63_Assets_STINKUBUS_1_40: 591657782
-      63_Assets_STINKUBUS_1_16: -2035044390
-      63_Assets_STINKUBUS_1_22: 765093911
-      63_Assets_STINKUBUS_1_84: 303010513
-      63_Assets_STINKUBUS_1_23: -878805918
-      63_Assets_STINKUBUS_1_116: 913539921
-      63_Assets_STINKUBUS_1_0: -1710414783
-      63_Assets_STINKUBUS_1_106: -1763393863
-      63_Assets_STINKUBUS_1_80: -1481259431
-      63_Assets_STINKUBUS_1_82: -437574942
-      63_Assets_STINKUBUS_1_25: -799274764
-      63_Assets_STINKUBUS_1_59: -8846066
-      63_Assets_STINKUBUS_1_78: -964316590
-      63_Assets_STINKUBUS_1_36: 2025748243
-      63_Assets_STINKUBUS_1_13: 13428871
-      63_Assets_STINKUBUS_1_6: -1479933560
-      63_Assets_STINKUBUS_1_91: 1576238227
-      63_Assets_STINKUBUS_1_132: -2137522450
-      63_Assets_STINKUBUS_1_124: 1637598357
-      63_Assets_STINKUBUS_1_14: -1988718575
-      63_Assets_STINKUBUS_1_28: -1990107253
-      63_Assets_STINKUBUS_1_58: -1706687134
-      63_Assets_STINKUBUS_1_66: -1942732805
-      63_Assets_STINKUBUS_1_68: 1671081685
-      63_Assets_STINKUBUS_1_69: -1780124122
-      63_Assets_STINKUBUS_1_121: -623257252
-      63_Assets_STINKUBUS_1_5: -1270197477
-      63_Assets_STINKUBUS_1_53: 2146204775
-      63_Assets_STINKUBUS_1_41: 1724897861
-      63_Assets_STINKUBUS_1_75: -292200232
-      63_Assets_STINKUBUS_1_81: 544953205
-      63_Assets_STINKUBUS_1_76: 1678185225
-      63_Assets_STINKUBUS_1_130: 830133501
-      63_Assets_STINKUBUS_1_95: 754397865
-      63_Assets_STINKUBUS_1_127: 1188830783
-      63_Assets_STINKUBUS_1_63: -359706182
-      63_Assets_STINKUBUS_1_126: 2078075012
-      63_Assets_STINKUBUS_1_119: 1654599033
+      PlayerSprite1_36: 1228963904
+      PlayerSprite1_119: 683342001
+      PlayerSprite1_1: -216646195
+      PlayerSprite1_85: 169012437
+      PlayerSprite1: -1933604965
+      PlayerSprite1_30: -1352804504
+      PlayerSprite1_6: 1791459151
+      PlayerSprite1_43: -834028114
+      PlayerSprite1_60: 1474714003
+      PlayerSprite1_12: 117983624
+      PlayerSprite1_110: -1403000879
+      PlayerSprite1_48: -1447525251
+      PlayerSprite1_65: 468256669
+      PlayerSprite1_34: -1412277545
+      PlayerSprite1_15: 466270519
+      PlayerSprite1_40: 1993225271
+      PlayerSprite1_75: -386704002
+      PlayerSprite1_19: -2063925603
+      PlayerSprite1_44: 1811915962
+      PlayerSprite1_108: 638499542
+      PlayerSprite1_126: 1253054596
+      PlayerSprite1_127: -1797475348
+      PlayerSprite1_32: -1539378162
+      PlayerSprite1_98: -1371736967
+      PlayerSprite1_24: -590343081
+      PlayerSprite1_84: -88558613
+      PlayerSprite1_59: -872558432
+      PlayerSprite1_100: -1555837003
+      PlayerSprite1_50: 1745091122
+      PlayerSprite1_47: 764804669
+      PlayerSprite1_70: -160127575
+      PlayerSprite1_80: 201724361
+      PlayerSprite1_54: 1624294289
+      PlayerSprite1_120: 593590255
+      PlayerSprite1_91: 2141034553
+      PlayerSprite1_105: 1142687782
+      PlayerSprite1_42: -1951573662
+      PlayerSprite1_78: -1101043566
+      PlayerSprite1_8: -1394824332
+      PlayerSprite1_14: -470865510
+      PlayerSprite1_123: -547672618
+      PlayerSprite1_118: 2053080620
+      PlayerSprite1_11: -133971973
+      PlayerSprite1_96: -1927960805
+      PlayerSprite1_73: -1368479417
+      PlayerSprite1_61: 1015147577
+      PlayerSprite1_33: 817776540
+      PlayerSprite1_68: 1596958873
+      PlayerSprite1_76: 1768992064
+      PlayerSprite1_5: -1328070612
+      PlayerSprite1_49: 241727582
+      PlayerSprite1_39: -1302478495
+      PlayerSprite1_117: -1172328804
+      PlayerSprite1_94: 869020029
+      PlayerSprite1_29: -378683873
+      PlayerSprite1_122: 444360537
+      PlayerSprite1_2: 1176174718
+      PlayerSprite1_45: 350793909
+      PlayerSprite1_52: -502555263
+      PlayerSprite1_79: -1240815933
+      PlayerSprite1_111: -1359428379
+      PlayerSprite1_17: -70110886
+      PlayerSprite1_101: -424065195
+      PlayerSprite1_21: 1608011835
+      PlayerSprite1_26: 355961193
+      PlayerSprite1_62: -322121326
+      PlayerSprite1_102: -1724840592
+      PlayerSprite1_7: 967499795
+      PlayerSprite1_121: 685670153
+      PlayerSprite1_46: -608035881
+      PlayerSprite1_22: -248106361
+      PlayerSprite1_38: 639941482
+      PlayerSprite1_74: -1091784775
+      PlayerSprite1_109: 811790921
+      PlayerSprite1_4: -541771391
+      PlayerSprite1_83: -2055093802
+      PlayerSprite1_92: -849128762
+      PlayerSprite1_31: -1698394884
+      PlayerSprite1_16: 1157075034
+      PlayerSprite1_28: -1490308305
+      PlayerSprite1_89: 1768602614
+      PlayerSprite1_116: 946908500
+      PlayerSprite1_67: 715176010
+      PlayerSprite1_125: 1115259063
+      PlayerSprite1_37: 458401037
+      PlayerSprite1_88: 1699934933
+      PlayerSprite1_56: 776598154
+      PlayerSprite1_63: 1176283893
+      PlayerSprite1_95: -1386943383
+      PlayerSprite1_104: -897012340
+      PlayerSprite1_71: -511296488
+      PlayerSprite1_112: 17255562
+      PlayerSprite1_113: -1123179055
+      PlayerSprite1_10: -1826650726
+      PlayerSprite1_41: -654263700
+      PlayerSprite1_57: -575392102
+      PlayerSprite1_58: 1295557776
+      PlayerSprite1_25: 342878787
+      PlayerSprite1_18: 840603334
+      PlayerSprite1_35: 1775637957
+      PlayerSprite1_99: -933255717
+      PlayerSprite1_51: 310652942
+      PlayerSprite1_20: 1976774080
+      PlayerSprite1_107: -1510432359
+      PlayerSprite1_72: -1085448234
+      PlayerSprite1_23: 512350839
+      PlayerSprite1_114: 981980403
+      PlayerSprite1_27: -1270130366
+      PlayerSprite1_103: 1006867668
+      PlayerSprite1_13: -1827075288
+      PlayerSprite1_87: -16343888
+      PlayerSprite1_9: 269684058
+      PlayerSprite1_53: -744627950
+      PlayerSprite1_55: -1215819394
+      PlayerSprite1_81: -32054576
+      PlayerSprite1_69: 319084222
+      PlayerSprite1_86: 808669682
+      PlayerSprite1_90: -915799133
+      PlayerSprite1_3: -1807025626
+      PlayerSprite1_97: -1782089300
+      PlayerSprite1_64: 1586266017
+      PlayerSprite1_106: -1288460911
+      PlayerSprite1_115: -1929127428
+      PlayerSprite1_77: -918161788
+      PlayerSprite1_124: 314030419
+      PlayerSprite1_66: 989993308
+      PlayerSprite1_82: 1588132905
+      PlayerSprite1_93: -1574012358
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
