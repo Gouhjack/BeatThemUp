@@ -18,6 +18,8 @@ public class EnemyBehaviour : MonoBehaviour
     [SerializeField]
     private Animator _animator;
     [SerializeField]
+    private float _speed;
+    [SerializeField]
     [Tooltip("Limite prêt du Player avant d'attaquer")]
     private float _limitNearTarget;
     [SerializeField]
@@ -55,7 +57,7 @@ public class EnemyBehaviour : MonoBehaviour
     void Start()
     {
         TransitionToState(EnemyState.IDLE);
-        _moveTarget = GameObject.Find("Player").transform;
+        _moveTarget = GameObject.FindWithTag("Player").transform;
     }
     
     void Update()
@@ -76,19 +78,22 @@ public class EnemyBehaviour : MonoBehaviour
         }
     }
     
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Attack"))
-        {
-            _healthpoint--;
-            if (_healthpoint == 0)
-            {
-                TransitionToState(EnemyState.DEAD);
-                SpawnItemAfterDeath();
-                Destroy(gameObject);
-            }
-        }
-    }
+   private void OnCollisionEnter2D(Collision2D collision)
+   {
+       if (collision.gameObject.CompareTag("Attack"))
+       {
+            Debug.Log("Ma vie = " + _healthpoint);
+           _healthpoint--;
+            Debug.Log("Je perd des point de vie");
+           if (_healthpoint == 0)
+           {
+                Debug.Log("Je suis mort");
+               TransitionToState(EnemyState.DEAD);
+               SpawnItemAfterDeath();
+               Destroy(gameObject);
+           }
+       }
+   }
     #endregion
     
     #region Methods
@@ -137,7 +142,7 @@ public class EnemyBehaviour : MonoBehaviour
                   break;
               case EnemyState.WALK:
 
-                  transform.position = Vector2.MoveTowards(transform.position, _moveTarget.position, Time.deltaTime);
+                  transform.position = Vector2.MoveTowards(transform.position, _moveTarget.position, Time.deltaTime) * _speed;
 
                   if(IsTargetNearLimit())
                   {
@@ -191,7 +196,7 @@ public class EnemyBehaviour : MonoBehaviour
 
     public void PlayerDetected()
     {
-        //Debug.Log("J'ai detecté le Player");
+        Debug.Log("J'ai detecté le Player");
         _playerDetected = true;
     }
 
@@ -204,6 +209,7 @@ public class EnemyBehaviour : MonoBehaviour
     {
         return Vector2.Distance(transform.position, _moveTarget.position) < _limitNearTarget;
     }
+
     private void SpawnItemAfterDeath()
     {
           for (int i = 0; i < _nbTapeItem; i++)
