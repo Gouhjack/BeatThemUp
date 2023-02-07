@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerJump : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     #region Exposed
 
@@ -30,25 +30,29 @@ public class PlayerJump : MonoBehaviour
 
     void Update()
     {
-        
-        _direction.x = Input.GetAxisRaw("Horizontal") * _moveSpeed;
-        _direction.y = Input.GetAxisRaw("Vertical") * _moveSpeed;
 
-        _animator.SetFloat("moveSpeedX", Mathf.Abs(_direction.x));
+        // _direction.x = Input.GetAxisRaw("Horizontal") * _moveSpeed;
+        // _direction.y = Input.GetAxisRaw("Vertical") * _moveSpeed;
+
+        _direction = new Vector2(Input.GetAxisRaw("Horizontal") * _moveSpeed, Input.GetAxisRaw("Vertical") * _moveSpeed);
+        float maxValue = Mathf.Max(Mathf.Abs(_direction.x), Mathf.Abs(_direction.y));
+        _animator.SetFloat("moveSpeedX", maxValue);
+
+        
 
         if (Input.GetButtonDown("Jump"))
         {
             _isJumping = true;
             _animator.SetBool("isJumping", true);
 
-            _animator.SetFloat("moveSpeedY", _direction.y);
-
+           //_animator.SetFloat("moveSpeedY", _direction.y);
+           //Debug.Log("moveSpeedY");
         }
         if (_isJumping == true)
         {
             if (_jumpTimer < _jumpDuration)
             {
-                Debug.Log(_jumpTimer);
+                
                 _jumpTimer += Time.deltaTime;
 
                 //progression / maximum
@@ -56,17 +60,24 @@ public class PlayerJump : MonoBehaviour
 
                 _graphics.localPosition = new Vector3(_graphics.localPosition.x, y * _jumpHeight, _graphics.localPosition.z);
 
+                _land = false;
             }
             else if (_jumpTimer >= _jumpDuration)
             {
                 _jumpTimer = 0f;
                 _isJumping = false;
-                _animator.SetTrigger("Grounded");
+                _animator.SetBool("land", true);
                 
             }
            // _animator.SetBool("Land", false);
            // _animator.SetBool("isJumping", false);
         }
+
+        if (_land == true)
+        {
+            _isJumping = false;
+        }
+        
 
 
 
@@ -75,6 +86,7 @@ public class PlayerJump : MonoBehaviour
     {
         _rb2D.velocity = _direction * Time.fixedDeltaTime * 50;
         //_direction.y = _rb2D.velocity.y;
+        
 
         if (_direction.x < 0f)
         {
