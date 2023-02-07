@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float _moveSpeed = 3f;
     [SerializeField] int _maxJump = 2;
     [SerializeField] float _runSpeed = 10f;
+    [SerializeField] int _hp = 20;
    
 
     #endregion
@@ -86,8 +87,8 @@ public class PlayerMovement : MonoBehaviour
             _isJumping = false;
             _animator.SetBool("isJumping", false);
         }
-        
 
+        Debug.Log("moveSpeedX");
 
 
     }
