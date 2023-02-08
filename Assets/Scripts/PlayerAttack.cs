@@ -22,7 +22,7 @@ public class PlayerAttack : MonoBehaviour
     void Update()
     {
         
-        if (Input.GetKeyDown(KeyCode.C)) 
+        if (Input.GetButtonDown("Fire2"))   //Input.GetKeyDown(KeyCode.C)
         {
             Attack();
         }
