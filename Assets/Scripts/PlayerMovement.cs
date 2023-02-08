@@ -40,8 +40,10 @@ public class PlayerMovement : MonoBehaviour
         _direction = new Vector2(Input.GetAxisRaw("Horizontal") * _moveSpeed, Input.GetAxisRaw("Vertical") * _moveSpeed);
         float maxValue = Mathf.Max(Mathf.Abs(_direction.x), Mathf.Abs(_direction.y));
         _animator.SetFloat("moveSpeedX", maxValue);
+        _animator.SetBool("isRunning", false);
         if (Input.GetAxisRaw("Fire3") == 1)
         {
+            _animator.SetBool("isRunning", true);
             _direction = new Vector2(Input.GetAxisRaw("Horizontal") * _runSpeed, Input.GetAxisRaw("Vertical") * _runSpeed);
         }
 
