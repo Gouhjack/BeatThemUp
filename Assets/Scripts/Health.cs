@@ -5,8 +5,10 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     [SerializeField] private int health = 100;
+    [SerializeField] Animator _animator;
 
     private int MAX_HEALTH = 100;
+
     
 
     // Update is called once per frame
@@ -59,6 +61,7 @@ public class Health : MonoBehaviour
 
     private void Die()
     {
+        _animator.SetBool("isDead", true);
         Debug.Log("I am Dead!");
         
         Destroy(gameObject);
