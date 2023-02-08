@@ -7,7 +7,7 @@ public class PlayerAttack : MonoBehaviour
 {
     #region Exposed
 
-
+    [SerializeField] Animator _animator;
 
     #endregion
 
@@ -36,6 +36,7 @@ public class PlayerAttack : MonoBehaviour
                 _timer = 0;
                 _attacking= false;
                 _attackArea.SetActive(_attacking);
+                _animator.SetBool("isHitting", false);
             }
 
         }
@@ -50,10 +51,10 @@ public class PlayerAttack : MonoBehaviour
 
     private void Attack()
     {
-
+        _animator.SetBool("isHitting", true);
         _attacking = true;
         _attackArea.SetActive(_attacking);
-
+        
     }
 
     #endregion

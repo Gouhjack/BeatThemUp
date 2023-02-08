@@ -7,13 +7,14 @@ public class Health : MonoBehaviour
     [SerializeField] private int health = 100;
 
     private int MAX_HEALTH = 100;
+    
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKeyDown(KeyCode.V))
         {
-            // Damage(10);
+             //Damage(10);
         }
 
         if (Input.GetKeyDown(KeyCode.H))
@@ -28,7 +29,7 @@ public class Health : MonoBehaviour
         {
             throw new System.ArgumentOutOfRangeException("Cannot have negative Damage");
         }
-
+        Debug.Log(MAX_HEALTH);
         this.health -= amount;
 
         if (health <= 0)
@@ -59,6 +60,7 @@ public class Health : MonoBehaviour
     private void Die()
     {
         Debug.Log("I am Dead!");
+        
         Destroy(gameObject);
     }
 }
