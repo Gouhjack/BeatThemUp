@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4603717810781492604}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.4289937, y: -0.6339526, z: 0.08023616}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44,9 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5b43863cf255f9499523c18b30ff82f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pool: {fileID: 5369531093559625598, guid: 0c086f8d503104f4e93d72a881269bcf, type: 3}
-  _spawnDelay: 0.1
+  _pool: {fileID: 0}
+  _spawnDelay: 0
   _nextSpawnTime: 0
   _spawnerRadius: 5
-  _gizmoColor: {r: 1, g: 0.93073094, b: 0, a: 0}
-  _drawGizmo: 1
+  _gizmoColor: {r: 1, g: 0.9514903, b: 0, a: 1}
+  _drawGizmo: 0

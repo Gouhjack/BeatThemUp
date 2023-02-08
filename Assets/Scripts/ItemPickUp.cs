@@ -18,7 +18,8 @@ public class ItemPickUp : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
-
+            _item.m_value += _score;
+            Destroy(gameObject);
         }
     }
     #endregion
