@@ -56,6 +56,7 @@ public class EnemyBehaviour : MonoBehaviour
     }
     void Start()
     {
+        
         TransitionToState(EnemyState.IDLE);
         _moveTarget = GameObject.FindWithTag("Player").transform;
     }
@@ -63,6 +64,7 @@ public class EnemyBehaviour : MonoBehaviour
     void Update()
     {
         OnStateUpadate();
+
     }
     
     private void FixedUpdate()
@@ -115,6 +117,9 @@ public class EnemyBehaviour : MonoBehaviour
                   break;
               case EnemyState.DEAD:
                   _animator.SetBool("IsDead", true);
+                _waitingTimeBeforeAttack = 10;
+                _speed = 0;
+                _hitBox.SetActive(false);
                   //faire apparaître les items à sa mort
                   break;
               default:
@@ -139,7 +144,11 @@ public class EnemyBehaviour : MonoBehaviour
                           TransitionToState(EnemyState.ATTACK);
                       }
                   }
-                  break;
+                if (GetComponent<Health>().health == 0)
+                {
+                    TransitionToState(EnemyState.DEAD);
+                }
+                break;
               case EnemyState.WALK:
 
                  // transform.position = Vector2.MoveTowards(transform.position, _moveTarget.position, Time.deltaTime) * _speed;
@@ -153,17 +162,31 @@ public class EnemyBehaviour : MonoBehaviour
                   {
                       TransitionToState(EnemyState.IDLE);
                   }
-                  break;
+                if (GetComponent<Health>().health == 0)
+                {
+                    TransitionToState(EnemyState.DEAD);
+                }
+                break;
               case EnemyState.ATTACK:
                   _attackTimer += Time.deltaTime;
                   if (_attackTimer >= _attackduration)
                   {
                       TransitionToState(EnemyState.IDLE);
                   }
-                  break;
+                if (GetComponent<Health>().health == 0)
+                {
+                    TransitionToState(EnemyState.DEAD);
+                }
+                    break;
               case EnemyState.DEAD:
-                  break;
-              default:
+
+                _animator.SetBool("IsDead", true);
+                GetComponent<HitBox>()._damage = 0;
+                _speed = 0;
+                _hitBox.SetActive(false);
+                //faire apparaître les items à sa mort
+                break;
+            default:
                   break;
           }
     }
@@ -182,8 +205,13 @@ public class EnemyBehaviour : MonoBehaviour
                   _animator.SetBool("IsAttacking", false);
                   break;
               case EnemyState.DEAD:
-                  break;
-              default:
+                _animator.SetBool("IsDead", true);
+                _waitingTimeBeforeAttack = 10;
+                _speed = 0;
+                _hitBox.SetActive(false);
+                //faire apparaître les items à sa mort
+                break;
+            default:
                   break;
           }
     }
@@ -211,17 +239,20 @@ public class EnemyBehaviour : MonoBehaviour
         return Vector2.Distance(transform.position, _moveTarget.position) < _limitNearTarget;
     }
 
-  //  private void SpawnItemAfterDeath()
-  //  {
-  //        for (int i = 0; i < _nbTapeItem; i++)
-  //        {
-  //          _tapes[i] = Instantiate(_tapePrefab, transform);
-  //        }
-  //        for (int i = 0; i < _nbRecordItem; i++)
-  //        {
-  //          _records[i] = Instantiate(_recordPrefab, transform);
-  //        }
-  //  }
+    //  private void SpawnItemAfterDeath()
+    //  {
+    //        for (int i = 0; i < _nbTapeItem; i++)
+    //        {
+    //          _tapes[i] = Instantiate(_tapePrefab, transform);
+    //        }
+    //        for (int i = 0; i < _nbRecordItem; i++)
+    //        {
+    //          _records[i] = Instantiate(_recordPrefab, transform);
+    //        }
+    //  }
+
+   
+
     #endregion
 
     #region Private & Protected
@@ -237,6 +268,8 @@ public class EnemyBehaviour : MonoBehaviour
     private GameObject[] _tapes;
 
     private GameObject[] _records;
+
+    
 
     #endregion
 }

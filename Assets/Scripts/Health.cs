@@ -4,12 +4,17 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] private int health = 100;
+    [SerializeField] public int health = 100;
     [SerializeField] Animator _animator;
+    private bool isDead;
 
     private int MAX_HEALTH = 100;
 
-    
+    private void Start()
+    {
+        isDead = false;
+        
+    }
 
     // Update is called once per frame
     void Update()
@@ -22,6 +27,21 @@ public class Health : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.H))
         {
             // Heal(10);
+        }
+
+        if ( health <= 0 && isDead == false)
+        {
+
+            StartCoroutine(coroutine());
+
+            isDead = true;
+            
+            _animator.SetBool("isDead", true);
+
+            
+            
+
+
         }
     }
 
@@ -36,7 +56,8 @@ public class Health : MonoBehaviour
 
         if (health <= 0)
         {
-            Die();
+            
+            
         }
     }
 
@@ -59,11 +80,26 @@ public class Health : MonoBehaviour
         }
     }
 
-    private void Die()
+    IEnumerator coroutine()
     {
-        _animator.SetBool("isDead", true);
-        Debug.Log("I am Dead!");
-        
+        yield return new WaitForSeconds(1);
+        for (int i = 0; i < 8; i++)
+        {
+            yield return new WaitForSeconds(0.15f);
+            GetComponentInChildren<SpriteRenderer>().enabled = false;
+            yield return new WaitForSeconds(0.15f);
+            GetComponentInChildren<SpriteRenderer>().enabled = true;
+        }
         Destroy(gameObject);
+
     }
+
+    private void Die()
+   {
+       
+       
+       Debug.Log("I am Dead!");
+       
+       Destroy(gameObject);
+   }
 }

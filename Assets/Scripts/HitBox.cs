@@ -6,6 +6,8 @@ public class HitBox : MonoBehaviour
 {
     #region Expose
 
+    [SerializeField] public int _damage = 5;
+
     #endregion
 
     #region Unity Lyfecycle
@@ -26,6 +28,6 @@ public class HitBox : MonoBehaviour
 
     #region Private & Protected
 
-    private int _damage = 5;
+    
     #endregion
 }
