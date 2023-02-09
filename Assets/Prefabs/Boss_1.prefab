@@ -228,12 +228,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 1829497019442032152}
+  _speed: 0
   _limitNearTarget: 0
   _waitingTimeBeforeAttack: 0
   _attackduration: 0
   _hitBox: {fileID: 842402781416381399}
-  _healthpoint: 0
-  _tape: {fileID: 2396750309863071571, guid: 073f10f183f143c478b21725893c8925, type: 3}
-  _record: {fileID: 4895727572008923615, guid: 306094eeb16989c499b4bda040e3b97f, type: 3}
+  _tapePrefab: {fileID: 0}
+  _recordPrefab: {fileID: 0}
   _nbTapeItem: 0
   _nbRecordItem: 0
