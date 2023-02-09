@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using static UnityEngine.RuleTile.TilingRuleOutput;
 
@@ -34,64 +35,9 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
 
-        // _direction.x = Input.GetAxisRaw("Horizontal") * _moveSpeed;
-        // _direction.y = Input.GetAxisRaw("Vertical") * _moveSpeed;
+        GetMovement();
 
-        _direction = new Vector2(Input.GetAxisRaw("Horizontal") * _moveSpeed, Input.GetAxisRaw("Vertical") * _moveSpeed);
-        float maxValue = Mathf.Max(Mathf.Abs(_direction.x), Mathf.Abs(_direction.y));
-        _animator.SetFloat("moveSpeedX", maxValue);
-        _animator.SetBool("isRunning", false);
-        if (Input.GetAxisRaw("Fire3") == 1)
-        {
-            _animator.SetBool("isRunning", true);
-            _direction = new Vector2(Input.GetAxisRaw("Horizontal") * _runSpeed, Input.GetAxisRaw("Vertical") * _runSpeed);
-        }
-
-
-
-        if (Input.GetButtonDown("Jump"))
-        {
-            _isJumping = true;
-            _animator.SetBool("isJumping", true);
-            _animator.SetBool("land", false);
-
-            //_animator.SetFloat("moveSpeedY", _direction.y);
-            //Debug.Log("moveSpeedY");
-        }
-        if (_isJumping == true)
-        {
-            if (_jumpTimer < _jumpDuration)
-            {
-                
-                _jumpTimer += Time.deltaTime;
-
-                //progression / maximum
-                float y = _jumpCurve.Evaluate(_jumpTimer / _jumpDuration);
-
-                _graphics.localPosition = new Vector3(_graphics.localPosition.x, y * _jumpHeight, _graphics.localPosition.z);
-
-                _land = false;
-            }
-            else if (_jumpTimer >= _jumpDuration)
-            {
-                _jumpTimer = 0f;
-                _isJumping = false;
-                _animator.SetBool("isJumping", false);
-                _animator.SetBool("land", true);
-                
-            }
-           // _animator.SetBool("Land", false);
-           // _animator.SetBool("isJumping", false);
-        }
-
-        if (_land == true)
-        {
-            _isJumping = false;
-            _animator.SetBool("isJumping", false);
-        }
-
-        Debug.Log("moveSpeedX");
-
+        Jump();
 
     }
     private void FixedUpdate()
@@ -117,6 +63,67 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         }
+    }
+    
+    private void GetMovement()
+    {
+        _direction = new Vector2(Input.GetAxisRaw("Horizontal") * _moveSpeed, Input.GetAxisRaw("Vertical") * _moveSpeed);
+        float maxValue = Mathf.Max(Mathf.Abs(_direction.x), Mathf.Abs(_direction.y));
+        _animator.SetFloat("moveSpeedX", maxValue);
+        _animator.SetBool("isRunning", false);
+        if (Input.GetAxisRaw("Fire3") == 1)
+        {
+            _animator.SetBool("isRunning", true);
+            _direction = new Vector2(Input.GetAxisRaw("Horizontal") * _runSpeed, Input.GetAxisRaw("Vertical") * _runSpeed);
+        }
+
+        
+    }
+
+    private void Jump()
+    {
+        if (Input.GetButtonDown("Jump"))
+        {
+            _isJumping = true;
+            _animator.SetBool("isJumping", true);
+            _animator.SetBool("land", false);
+
+            //_animator.SetFloat("moveSpeedY", _direction.y);
+            //Debug.Log("moveSpeedY");
+        }
+            if (_isJumping == true)
+            {
+                if (_jumpTimer < _jumpDuration)
+                {
+
+                    _jumpTimer += Time.deltaTime;
+
+                    //progression / maximum
+                    float y = _jumpCurve.Evaluate(_jumpTimer / _jumpDuration);
+
+                    _graphics.localPosition = new Vector3(_graphics.localPosition.x, y * _jumpHeight, _graphics.localPosition.z);
+
+                    _land = false;
+                Debug.Log(Time.timeSinceLevelLoad);
+                }
+                else if (_jumpTimer >= _jumpDuration)
+                {
+                    _jumpTimer = 0f;
+                    _isJumping = false;
+                    _land = true;
+                    _animator.SetBool("isJumping", false);
+                    _animator.SetBool("land", true);
+                    Debug.Log(Time.timeSinceLevelLoad);
+                }
+                // _animator.SetBool("Land", false);
+                // _animator.SetBool("isJumping", false);
+            }
+
+            if (_land == true)
+            {
+                _isJumping = false;
+                _animator.SetBool("isJumping", false);
+            }
     }
     
 
