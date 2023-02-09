@@ -25,7 +25,7 @@ public class MainMenu : MonoBehaviour
 
     private void StartGame()
     {
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetButtonDown("Submit"))
         {
             Debug.Log("Je vais dans le jeu");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

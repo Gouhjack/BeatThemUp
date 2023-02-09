@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 6814125128933177323}
   - component: {fileID: 6814125128933177324}
   - component: {fileID: 6814125128933177322}
-  - component: {fileID: 2343403980087424307}
+  - component: {fileID: 2352396682566667880}
   - component: {fileID: 6840170856265496651}
   - component: {fileID: 6814125128933177320}
   - component: {fileID: 6814125128933177321}
@@ -239,7 +239,7 @@ MonoBehaviour:
   _hp: 20
   _graphics: {fileID: 0}
   _jumpTimer: 0
---- !u!114 &2343403980087424307
+--- !u!114 &2352396682566667880
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -248,11 +248,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 6814125128933177325}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e944514128badb4dbffc877341ec2e0, type: 3}
+  m_Script: {fileID: 11500000, guid: 578e64d44d717d84f8062023fdce3052, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
-  _animator: {fileID: 6814125129916300422}
+  _health: 100
+  _healthMax: 100
+  _healthbar: {fileID: 0}
+  _healthBarGrey: {fileID: 0}
+  _gameOverScreen: {fileID: 0}
 --- !u!114 &6840170856265496651
 MonoBehaviour:
   m_ObjectHideFlags: 0
