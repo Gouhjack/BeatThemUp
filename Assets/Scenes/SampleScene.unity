@@ -690,7 +690,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'BRO : Hey!'
+  m_text: 'BRO : Hey! We''re in a game!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 73eb3a448a2bb91448238b13e429cb1a, type: 2}
   m_sharedMaterial: {fileID: -1273107611731722785, guid: 73eb3a448a2bb91448238b13e429cb1a, type: 2}
@@ -1004,6 +1004,7 @@ GameObject:
   - component: {fileID: 1451776947}
   - component: {fileID: 1451776946}
   - component: {fileID: 1451776950}
+  - component: {fileID: 1451776951}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1190,6 +1191,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1451776951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451776945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b92f527b1d5837544bb3724178a92ded, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1474384770
 GameObject:
   m_ObjectHideFlags: 0
