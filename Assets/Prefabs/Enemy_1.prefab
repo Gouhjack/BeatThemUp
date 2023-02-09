@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 649443022742870281}
   - component: {fileID: 649443022742870282}
   - component: {fileID: 7529528338841848701}
+  - component: {fileID: 7707110501449027674}
   m_Layer: 0
   m_Name: HitBox
   m_TagString: Untagged
@@ -239,6 +240,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7707110501449027674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649443022742870280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6001374677065f040b63c7e8fef73787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &649443023495795092
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,7 +309,6 @@ MonoBehaviour:
   _waitingTimeBeforeAttack: 1
   _attackduration: 0.2
   _hitBox: {fileID: 649443022742870280}
-  _healthpoint: 200
   _tapePrefab: {fileID: 2396750309863071571, guid: 073f10f183f143c478b21725893c8925, type: 3}
   _recordPrefab: {fileID: 4895727572008923615, guid: 306094eeb16989c499b4bda040e3b97f, type: 3}
   _nbTapeItem: 0

@@ -32,9 +32,9 @@ public class EnemyBehaviour : MonoBehaviour
     [Tooltip("Collider coup de point")]
     private GameObject _hitBox;
     
-    [Header("Life enemy")]
-    [SerializeField]
-    private int _healthpoint = 50;
+    //[Header("Life enemy")]
+    //[SerializeField]
+    //private int _healthpoint = 50;
     
     [Header("Item after death")]
     [SerializeField]

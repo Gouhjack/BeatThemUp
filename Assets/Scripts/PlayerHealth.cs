@@ -8,16 +8,16 @@ public class PlayerHealth : MonoBehaviour
     #region Expose
 
     [SerializeField]
-    private int _health;
+    private int _health = 100;
 
     [SerializeField] 
-    private int _healthMax;
+    private int _healthMax = 100;
 
-    [SerializeField]
-    private Image _healthbar;
+    //[SerializeField]
+    //private Image _healthbar;
 
-    [SerializeField]
-    private Image _healthBarGrey;
+    //[SerializeField]
+    //private Image _healthBarGrey;
 
     [SerializeField]
     private GameObject _gameOverScreen;
@@ -35,15 +35,15 @@ public class PlayerHealth : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(collision.gameObject.CompareTag("Enemy")) 
-        {
-            _health--;
-            float coef = _health / _originHealth;
-            _healthbar.rectTransform.sizeDelta = new Vector2(_healthBarGrey.rectTransform.sizeDelta.x * coef, _healthBarGrey.rectTransform.sizeDelta.y);
-        }
-    }
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    if(collision.gameObject.CompareTag("Enemy")) 
+    //    {
+    //        _health--;
+    //        float coef = _health / _originHealth;
+    //        _healthbar.rectTransform.sizeDelta = new Vector2(_healthBarGrey.rectTransform.sizeDelta.x * coef, _healthBarGrey.rectTransform.sizeDelta.y);
+    //    }
+    //}
     #endregion
 
     #region Methods
