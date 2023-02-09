@@ -475,18 +475,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 649443023495795094, guid: 27f964cfc4bea55429ab015baaff3d5f, type: 3}
-      propertyPath: _speed
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 649443023495795094, guid: 27f964cfc4bea55429ab015baaff3d5f, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 649443024765079831, guid: 27f964cfc4bea55429ab015baaff3d5f, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27f964cfc4bea55429ab015baaff3d5f, type: 3}
 --- !u!1 &580025199
@@ -3548,7 +3536,7 @@ GameObject:
   - component: {fileID: 2052991648}
   - component: {fileID: 2052991647}
   m_Layer: 5
-  m_Name: HealthBared
+  m_Name: HealthBaRed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3728,8 +3716,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2352396682566667880, guid: 024adc99df231f04789cfbb81ba29123, type: 3}
       propertyPath: _health
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2352396682566667880, guid: 024adc99df231f04789cfbb81ba29123, type: 3}
+      propertyPath: _healthbar
+      value: 
+      objectReference: {fileID: 2052991647}
+    - target: {fileID: 2352396682566667880, guid: 024adc99df231f04789cfbb81ba29123, type: 3}
+      propertyPath: _healthBarGrey
+      value: 
+      objectReference: {fileID: 1863015035}
     - target: {fileID: 2352396682566667880, guid: 024adc99df231f04789cfbb81ba29123, type: 3}
       propertyPath: _gameOverScreen
       value: 

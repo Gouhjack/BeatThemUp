@@ -13,11 +13,11 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] 
     private int _healthMax = 100;
 
-    //[SerializeField]
-    //private Image _healthbar;
+    [SerializeField]
+    private RawImage _healthbar;
 
-    //[SerializeField]
-    //private Image _healthBarGrey;
+    [SerializeField]
+    private RawImage _healthBarGrey;
 
     [SerializeField]
     private GameObject _gameOverScreen;
@@ -35,15 +35,15 @@ public class PlayerHealth : MonoBehaviour
         
     }
 
-    //private void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    if(collision.gameObject.CompareTag("Enemy")) 
-    //    {
-    //        _health--;
-    //        float coef = _health / _originHealth;
-    //        _healthbar.rectTransform.sizeDelta = new Vector2(_healthBarGrey.rectTransform.sizeDelta.x * coef, _healthBarGrey.rectTransform.sizeDelta.y);
-    //    }
-    //}
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag("Attack")) 
+        {
+
+            float coef = _health / _originHealth;
+            _healthbar.rectTransform.sizeDelta = new Vector2(_healthBarGrey.rectTransform.sizeDelta.x * coef, _healthBarGrey.rectTransform.sizeDelta.y);
+        }
+    }
     #endregion
 
     #region Methods
