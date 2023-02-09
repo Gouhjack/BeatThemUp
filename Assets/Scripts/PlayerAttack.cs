@@ -21,11 +21,6 @@ public class PlayerAttack : MonoBehaviour
 
     void Update()
     {
-
-
-    }
-    private void FixedUpdate()
-    {
         if (Input.GetButtonDown("Fire2")) //(Input.GetButtonDown("Fire1"))
         {
             Attack();
@@ -44,6 +39,11 @@ public class PlayerAttack : MonoBehaviour
             }
 
         }
+
+    }
+    private void FixedUpdate()
+    {
+        
     }
     #endregion
 

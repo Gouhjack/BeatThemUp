@@ -14,9 +14,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float _jumpDuration = 3f;
     [SerializeField] Animator _animator;
     [SerializeField] float _moveSpeed = 3f;
-    [SerializeField] int _maxJump = 2;
+    
     [SerializeField] float _runSpeed = 10f;
-    [SerializeField] int _hp = 20;
+    
    
 
     #endregion
@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
 
         GetMovement();
 
-        Jump();
+        //Jump();
 
     }
     private void FixedUpdate()
@@ -82,56 +82,34 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    private void Jump()
-    {
-        if (Input.GetButtonDown("Jump"))
-        {
-            _isJumping = true;
-            _animator.SetBool("isJumping", true);
-            _animator.SetBool("land", false);
+  //  void Jump()
+  //  {
+  //      if (Input.GetButton("Jump"))
+  //      {
+  //          _isJumping = true;
+  //          _animator.SetBool("isJumping", true);
+  //      }
+  //      if (_isJumping)
+  //      {
+  //          if (_jumpTimer < _jumpDuration)
+  //          {
+  //              _jumpTimer += Time.deltaTime;
+  //              float y = _jumpCurve.Evaluate(_jumpTimer / _jumpDuration);
+  //              _graphics.localPosition = new Vector3(_graphics.localPosition.x, y * _jumpHeight, _graphics.localPosition.z);
+  //          }
+  //          else if (_jumpTimer >= _jumpDuration)
+  //          {
+  //              _jumpTimer = 0f;
+  //              _isJumping = false;
+  //              _animator.SetBool("isJumping", false);
+  //          }
+  //      }
+  //  }
 
-            //_animator.SetFloat("moveSpeedY", _direction.y);
-            //Debug.Log("moveSpeedY");
-        }
-            if (_isJumping == true)
-            {
-                if (_jumpTimer < _jumpDuration)
-                {
 
-                    _jumpTimer += Time.deltaTime;
+    #endregion
 
-                    //progression / maximum
-                    float y = _jumpCurve.Evaluate(_jumpTimer / _jumpDuration);
-
-                    _graphics.localPosition = new Vector3(_graphics.localPosition.x, y * _jumpHeight, _graphics.localPosition.z);
-
-                    _land = false;
-                Debug.Log(Time.timeSinceLevelLoad);
-                }
-                else if (_jumpTimer >= _jumpDuration)
-                {
-                    _jumpTimer = 0f;
-                    _isJumping = false;
-                    _land = true;
-                    _animator.SetBool("isJumping", false);
-                    _animator.SetBool("land", true);
-                    Debug.Log(Time.timeSinceLevelLoad);
-                }
-                // _animator.SetBool("Land", false);
-                // _animator.SetBool("isJumping", false);
-            }
-
-            if (_land == true)
-            {
-                _isJumping = false;
-                _animator.SetBool("isJumping", false);
-            }
-    }
-    
-
-#endregion
-
-#region Private & Protected
+    #region Private & Protected
     private Rigidbody2D _rb2D;
 private Vector2 _direction;
 private bool _isJumping;

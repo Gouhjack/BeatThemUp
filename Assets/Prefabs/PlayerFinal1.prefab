@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 6814125128933177322}
   - component: {fileID: 2352396682566667880}
   - component: {fileID: 6840170856265496651}
+  - component: {fileID: 6144223623566779110}
   - component: {fileID: 6814125128933177320}
   - component: {fileID: 6814125128933177321}
   m_Layer: 0
@@ -234,9 +235,7 @@ MonoBehaviour:
   _jumpDuration: 1
   _animator: {fileID: 6814125129916300422}
   _moveSpeed: 3
-  _maxJump: 1
   _runSpeed: 5
-  _hp: 20
   _graphics: {fileID: 0}
   _jumpTimer: 0
 --- !u!114 &2352396682566667880
@@ -253,8 +252,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _health: 100
   _healthMax: 100
-  _healthbar: {fileID: 0}
-  _healthBarGrey: {fileID: 0}
   _gameOverScreen: {fileID: 0}
 --- !u!114 &6840170856265496651
 MonoBehaviour:
@@ -269,6 +266,53 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 6814125129916300422}
+--- !u!114 &6144223623566779110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6814125128933177325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad8f80331d62975429f7c153bd427e1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _jumpCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.13274789
+      value: 0.3515931
+      inSlope: 2.7150583
+      outSlope: 2.7150583
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.023011861
+    - serializedVersion: 3
+      time: 0.99731445
+      value: 0.0075683594
+      inSlope: -3.8305101
+      outSlope: -3.8305101
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.041257855
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _jumpHeight: 3
+  _jumpDuration: 1
 --- !u!50 &6814125128933177320
 Rigidbody2D:
   serializedVersion: 4
