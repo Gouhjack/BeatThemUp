@@ -17,16 +17,17 @@ public class MainMenu : MonoBehaviour
 
     void Update()
     {
-        
+        StartGame();
     }
     #endregion
 
     #region Methods
 
-    public void StartGame()
+    private void StartGame()
     {
         if (Input.GetKeyDown(KeyCode.X))
         {
+            Debug.Log("Je vais dans le jeu");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
