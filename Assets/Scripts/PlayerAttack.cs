@@ -22,28 +22,28 @@ public class PlayerAttack : MonoBehaviour
     void Update()
     {
 
+
+    }
+    private void FixedUpdate()
+    {
         if (Input.GetButtonDown("Fire2")) //(Input.GetButtonDown("Fire1"))
         {
             Attack();
         }
 
-        if (_attacking) 
+        if (_attacking)
         {
             _timer += Time.deltaTime;
 
             if (_timer >= _timeToAttack)
             {
                 _timer = 0;
-                _attacking= false;
+                _attacking = false;
                 _attackArea.SetActive(_attacking);
                 _animator.SetBool("isHitting", false);
             }
 
         }
-    }
-    private void FixedUpdate()
-    {
-        
     }
     #endregion
 

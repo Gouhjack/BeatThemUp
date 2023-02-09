@@ -16,4 +16,9 @@ public class AttackArea : MonoBehaviour
             Debug.Log(_damage);
         }
     }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        Debug.Log("Fin de la collision");
+    }
 }

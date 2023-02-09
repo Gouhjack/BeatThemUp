@@ -34,7 +34,7 @@ public class EnemyBehaviour : MonoBehaviour
     
     [Header("Life enemy")]
     [SerializeField]
-    private int _healthpoint;
+    private int _healthpoint = 50;
     
     [Header("Item after death")]
     [SerializeField]
@@ -78,22 +78,22 @@ public class EnemyBehaviour : MonoBehaviour
         }
     }
     
-   private void OnCollisionEnter2D(Collision2D collision)
-   {
-       if (collision.gameObject.CompareTag("Attack"))
-       {
-            Debug.Log("Ma vie = " + _healthpoint);
-           _healthpoint--;
-            Debug.Log("Je perd des point de vie");
-           if (_healthpoint == 0)
-           {
-                Debug.Log("Je suis mort");
-               TransitionToState(EnemyState.DEAD);
-               SpawnItemAfterDeath();
-               Destroy(gameObject);
-           }
-       }
-   }
+  // private void OnCollisionEnter2D(Collision2D collision)
+  // {
+  //     if (collision.gameObject.CompareTag("Attack"))
+  //     {
+  //          Debug.Log("Ma vie = " + _healthpoint);
+  //         _healthpoint--;
+  //          Debug.Log("Je perd des point de vie");
+  //         if (_healthpoint == 0)
+  //         {
+  //              Debug.Log("Je suis mort");
+  //             TransitionToState(EnemyState.DEAD);
+  //             SpawnItemAfterDeath();
+  //             Destroy(gameObject);
+  //         }
+  //     }
+  // }
     #endregion
     
     #region Methods
@@ -142,7 +142,8 @@ public class EnemyBehaviour : MonoBehaviour
                   break;
               case EnemyState.WALK:
 
-                  transform.position = Vector2.MoveTowards(transform.position, _moveTarget.position, Time.deltaTime) * _speed;
+                 // transform.position = Vector2.MoveTowards(transform.position, _moveTarget.position, Time.deltaTime) * _speed;
+                  transform.position = Vector2.MoveTowards(transform.position, _moveTarget.position, (Time.deltaTime * _speed));
 
                   if(IsTargetNearLimit())
                   {
@@ -210,17 +211,17 @@ public class EnemyBehaviour : MonoBehaviour
         return Vector2.Distance(transform.position, _moveTarget.position) < _limitNearTarget;
     }
 
-    private void SpawnItemAfterDeath()
-    {
-          for (int i = 0; i < _nbTapeItem; i++)
-          {
-            _tapes[i] = Instantiate(_tapePrefab, transform);
-          }
-          for (int i = 0; i < _nbRecordItem; i++)
-          {
-            _records[i] = Instantiate(_recordPrefab, transform);
-          }
-    }
+  //  private void SpawnItemAfterDeath()
+  //  {
+  //        for (int i = 0; i < _nbTapeItem; i++)
+  //        {
+  //          _tapes[i] = Instantiate(_tapePrefab, transform);
+  //        }
+  //        for (int i = 0; i < _nbRecordItem; i++)
+  //        {
+  //          _records[i] = Instantiate(_recordPrefab, transform);
+  //        }
+  //  }
     #endregion
 
     #region Private & Protected

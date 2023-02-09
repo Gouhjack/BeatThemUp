@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -76,8 +77,9 @@ public class PlayerMovement : MonoBehaviour
             _animator.SetBool("isRunning", true);
             _direction = new Vector2(Input.GetAxisRaw("Horizontal") * _runSpeed, Input.GetAxisRaw("Vertical") * _runSpeed);
         }
+        else if (Input.GetAxisRaw("Fire3") == 0) _animator.SetBool("isRunning", false);
 
-        
+
     }
 
     private void Jump()
