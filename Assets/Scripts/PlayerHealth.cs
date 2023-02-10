@@ -8,16 +8,13 @@ public class PlayerHealth : MonoBehaviour
     #region Expose
 
     [SerializeField]
-    private int _health = 100;
+    private float _health = 100;
 
     [SerializeField] 
     private int _healthMax = 100;
 
     [SerializeField]
-    private RawImage _healthbar;
-
-    [SerializeField]
-    private RawImage _healthBarGrey;
+    private Image _healthbar;
 
     [SerializeField]
     private GameObject _gameOverScreen;
@@ -35,15 +32,15 @@ public class PlayerHealth : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(collision.gameObject.CompareTag("Attack")) 
-        {
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    if(collision.gameObject.CompareTag("Attack")) 
+    //    {
 
-            float coef = _health / _originHealth;
-            _healthbar.rectTransform.sizeDelta = new Vector2(_healthBarGrey.rectTransform.sizeDelta.x * coef, _healthBarGrey.rectTransform.sizeDelta.y);
-        }
-    }
+    //        float coef = _health / _originHealth;
+    //        _healthbar.rectTransform.sizeDelta = new Vector2(_healthBarGrey.rectTransform.sizeDelta.x * coef, _healthBarGrey.rectTransform.sizeDelta.y);
+    //    }
+    //}
     #endregion
 
     #region Methods
@@ -56,6 +53,7 @@ public class PlayerHealth : MonoBehaviour
         }
         Debug.Log(_healthMax);
         this._health -= amount;
+        _healthbar.fillAmount = _health / _healthMax;
 
         if(_health <= 0)
         {
@@ -71,6 +69,6 @@ public class PlayerHealth : MonoBehaviour
 
     #region Private & Protected
 
-    private int _originHealth;
+    private float _originHealth;
     #endregion
 }
