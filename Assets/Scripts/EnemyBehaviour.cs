@@ -120,7 +120,8 @@ public class EnemyBehaviour : MonoBehaviour
                 _waitingTimeBeforeAttack = 10;
                 _speed = 0;
                 _hitBox.SetActive(false);
-                  //faire apparaître les items à sa mort
+                //faire apparaître les items à sa mort
+                SpawnItemAfterDeath();
                   break;
               default:
                   break;
@@ -185,6 +186,8 @@ public class EnemyBehaviour : MonoBehaviour
                 _speed = 0;
                 _hitBox.SetActive(false);
                 //faire apparaître les items à sa mort
+                SpawnItemAfterDeath();
+
                 break;
             default:
                   break;
@@ -210,6 +213,8 @@ public class EnemyBehaviour : MonoBehaviour
                 _speed = 0;
                 _hitBox.SetActive(false);
                 //faire apparaître les items à sa mort
+                SpawnItemAfterDeath();
+
                 break;
             default:
                   break;
@@ -239,17 +244,17 @@ public class EnemyBehaviour : MonoBehaviour
         return Vector2.Distance(transform.position, _moveTarget.position) < _limitNearTarget;
     }
 
-    //  private void SpawnItemAfterDeath()
-    //  {
-    //        for (int i = 0; i < _nbTapeItem; i++)
-    //        {
-    //          _tapes[i] = Instantiate(_tapePrefab, transform);
-    //        }
-    //        for (int i = 0; i < _nbRecordItem; i++)
-    //        {
-    //          _records[i] = Instantiate(_recordPrefab, transform);
-    //        }
-    //  }
+      private void SpawnItemAfterDeath()
+      {
+            for (int i = 0; i < _nbTapeItem; i++)
+            {
+              _tapes[i] = Instantiate(_tapePrefab, transform);
+            }
+            for (int i = 0; i < _nbRecordItem; i++)
+            {
+              _records[i] = Instantiate(_recordPrefab, transform);
+            }
+      }
 
    
 
