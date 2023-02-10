@@ -181,7 +181,7 @@ public class EnemyBehaviour : MonoBehaviour
               case EnemyState.DEAD:
 
                 _animator.SetBool("IsDead", true);
-                GetComponent<HitBox>()._damage = 0;
+                //GetComponent<HitBox>()._damage = 0;
                 _speed = 0;
                 _hitBox.SetActive(false);
                 //faire apparaître les items à sa mort
