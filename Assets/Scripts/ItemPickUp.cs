@@ -16,12 +16,16 @@ public class ItemPickUp : MonoBehaviour
     #endregion
 
     #region Unity Lyfecycle
+    private void Awake()
+    {
+        _itemSound= GetComponent<AudioSource>();
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player"))
         {
-            _item.m_value += _score;
             _itemSound.Play();
+            _item.m_value += _score;
             Destroy(gameObject);
         }
     }

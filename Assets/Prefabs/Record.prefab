@@ -50,6 +50,8 @@ MonoBehaviour:
   _item: {fileID: 11400000, guid: 7fe9c9b9a99eaee4d9a463f6994f3364, type: 2}
   _score: 200
   _itemSound: {fileID: 2541618297346840974}
+  _enemyTransform: {fileID: 649443023495795093, guid: 27f964cfc4bea55429ab015baaff3d5f, type: 3}
+  _nbItem: 1
 --- !u!58 &6654449461652775297
 CircleCollider2D:
   m_ObjectHideFlags: 0

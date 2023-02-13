@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22c39036c71efb54daaa6d499541e262, type: 3}
   m_Name: RecordScore
   m_EditorClassIdentifier: 
-  m_value: 0
+  m_value: 200

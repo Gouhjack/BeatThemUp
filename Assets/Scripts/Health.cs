@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Health : MonoBehaviour
 {
     [SerializeField] public int health = 100;
     [SerializeField] Animator _animator;
+    [SerializeField] private GameObject _record;
+    [SerializeField] private GameObject _tape;
+    [SerializeField] private Transform _enemyTransform;
     private bool isDead;
 
     private int MAX_HEALTH = 100;
@@ -91,7 +95,18 @@ public class Health : MonoBehaviour
             GetComponentInChildren<SpriteRenderer>().enabled = true;
         }
         Destroy(gameObject);
+        DropItem();
+    }
 
+    private void DropItem()
+    {
+        Vector3 position = transform.position;
+        GameObject record = Instantiate(_record, position, Quaternion.identity);
+        GameObject tape = Instantiate(_tape, position, Quaternion.identity);
+        record.SetActive(true);
+        tape.SetActive(true);
+        Destroy(record, 5f);
+        Destroy(tape, 5f);
     }
 
     private void Die()

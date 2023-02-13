@@ -181,6 +181,8 @@ MonoBehaviour:
   _item: {fileID: 11400000, guid: 61b7d080eec581e49837a65837c2390f, type: 2}
   _score: 50
   _itemSound: {fileID: 846617230914463024}
+  _enemyTransform: {fileID: 649443023495795093, guid: 27f964cfc4bea55429ab015baaff3d5f, type: 3}
+  _nbItem: 1
 --- !u!82 &846617230914463024
 AudioSource:
   m_ObjectHideFlags: 0

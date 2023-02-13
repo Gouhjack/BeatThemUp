@@ -25,7 +25,7 @@ public class UpdateText : MonoBehaviour
     }
     void Update()
     {
-        _textScore.text = _tapeScore.m_value.ToString() + _recordScore.m_value.ToString();
+        _textScore.text = (_tapeScore.m_value + _recordScore.m_value).ToString();
     }
     #endregion
 

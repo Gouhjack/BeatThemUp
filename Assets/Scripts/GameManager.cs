@@ -9,11 +9,21 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     private AudioSource _audio;
+    [SerializeField]
+    private IntVariable _recordScore;
+    [SerializeField]
+    private IntVariable _tapeScore;
 
     #endregion
 
     #region Unity Lyfecycle
-   
+    private void Awake()
+    {
+        _audio = GetComponent<AudioSource>();
+        _recordScore.m_value = 0;
+        _tapeScore.m_value = 0;
+    }
+
     #endregion
 
     #region Methods

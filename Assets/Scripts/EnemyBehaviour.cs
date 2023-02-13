@@ -244,17 +244,17 @@ public class EnemyBehaviour : MonoBehaviour
         return Vector2.Distance(transform.position, _moveTarget.position) < _limitNearTarget;
     }
 
-      private void SpawnItemAfterDeath()
-      {
-            for (int i = 0; i < _nbTapeItem; i++)
-            {
-              _tapes[i] = Instantiate(_tapePrefab, transform);
-            }
-            for (int i = 0; i < _nbRecordItem; i++)
-            {
-              _records[i] = Instantiate(_recordPrefab, transform);
-            }
-      }
+     private void SpawnItemAfterDeath()
+     {
+           for (int i = 0; i < _nbTapeItem; i++)
+           {
+             _tapes[i] = Instantiate(_tapePrefab, transform);
+           }
+           for (int i = 0; i < _nbRecordItem; i++)
+           {
+             _records[i] = Instantiate(_recordPrefab, transform);
+           }
+     }
 
    
 
