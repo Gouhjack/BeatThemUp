@@ -49,6 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _item: {fileID: 11400000, guid: 7fe9c9b9a99eaee4d9a463f6994f3364, type: 2}
   _score: 200
+  _itemSound: {fileID: 2541618297346840974}
 --- !u!58 &6654449461652775297
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -76,8 +77,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 06283a32a1eb94b3ab3e11edc0ac6559, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0

@@ -10,6 +10,8 @@ public class ItemPickUp : MonoBehaviour
     private IntVariable _item;
     [SerializeField]
     private int _score;
+    [SerializeField]
+    private AudioSource _itemSound;
 
     #endregion
 
@@ -19,6 +21,7 @@ public class ItemPickUp : MonoBehaviour
         if(collision.CompareTag("Player"))
         {
             _item.m_value += _score;
+            _itemSound.Play();
             Destroy(gameObject);
         }
     }

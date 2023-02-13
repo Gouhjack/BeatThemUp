@@ -180,6 +180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _item: {fileID: 11400000, guid: 61b7d080eec581e49837a65837c2390f, type: 2}
   _score: 50
+  _itemSound: {fileID: 846617230914463024}
 --- !u!82 &846617230914463024
 AudioSource:
   m_ObjectHideFlags: 0
@@ -191,8 +192,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bf460f7cfc8684cae99d5b420d283ff5, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0

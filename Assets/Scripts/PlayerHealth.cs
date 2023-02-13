@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
     #region Expose
 
     [SerializeField]
+    [Tooltip("Health = nombre de vie actuel")]
     private float _health = 100;
 
     [SerializeField] 
@@ -19,6 +21,12 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField]
     private GameObject _gameOverScreen;
 
+    [SerializeField]
+    private int _nbLives;
+
+    [SerializeField]
+    private TextMeshProUGUI _liveCountText;
+
     #endregion
 
     #region Unity Lyfecycle
@@ -29,7 +37,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Update()
     {
-        
+        _liveCountText.text = _nbLives.ToString();
     }
 
     //private void OnCollisionEnter2D(Collision2D collision)
@@ -56,6 +64,16 @@ public class PlayerHealth : MonoBehaviour
         _healthbar.fillAmount = _health / _healthMax;
 
         if(_health <= 0)
+        {
+            LoseLife();
+        }
+    }
+
+    private void LoseLife()
+    {
+        _nbLives--;
+        _health = _healthMax;
+        if (_nbLives == 0)
         {
             Die();
         }
