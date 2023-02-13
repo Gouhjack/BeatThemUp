@@ -7,10 +7,13 @@ public class EnemySpawner : MonoBehaviour
 {
     #region Expose
 
+    [Header("Enemies")]
     [SerializeField]
-    private EnemyPool _pool;
+    private GameObject _enemyPrefab;
+    [SerializeField]
+    private int _maxEnemy;
 
-    [Header("Spawn Enemies")]
+    [Header("Spawn Enemies Parameters")]
     [SerializeField]
     private float _spawnDelay;
     [SerializeField]
@@ -18,16 +21,23 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField]
     [Range(0.5f, 5)]
     private float _spawnerRadius;
-
-    [Header("Valeurs pour dessiner le gizmo")]
     [SerializeField]
-    Color _gizmoColor;
-    [SerializeField]
-    bool _drawGizmo;
+    private Transform[] _pointToSpawn;
 
     #endregion
 
     #region Unity Lyfecycle
+
+    private void Awake()
+    {
+        _enemies = new GameObject[_maxEnemy];
+        for (int i = 0; i < _maxEnemy; i++)
+        {
+            int randSpawPoint = Random.Range(0, _pointToSpawn.Length);
+            _enemies[i] = Instantiate(_enemyPrefab, _pointToSpawn[randSpawPoint]);
+        }
+    }
+
     void Start()
     {
         
@@ -39,18 +49,10 @@ public class EnemySpawner : MonoBehaviour
         {
             GameObject newEnemy = SpawnEnemy();
 
-            _nextSpawnTime= Time.timeSinceLevelLoad + _spawnDelay;
+            _nextSpawnTime = Time.timeSinceLevelLoad + _spawnDelay;
         }
     }
 
-    private void OnDrawGizmos()
-    {
-        if (_drawGizmo)
-        {
-            Gizmos.color = _gizmoColor;
-            Gizmos.DrawWireSphere(transform.position, _spawnerRadius);
-        }
-    }
     #endregion
 
     #region Methods
@@ -58,7 +60,7 @@ public class EnemySpawner : MonoBehaviour
     private GameObject SpawnEnemy()
     {
         Vector2 position = Random.insideUnitCircle * _spawnerRadius + (Vector2)transform.position;
-        GameObject enemy = _pool.GetEnemy();
+        GameObject enemy = _enemyPrefab;
         if (enemy != null)
         {
             enemy.SetActive(true);
@@ -70,6 +72,8 @@ public class EnemySpawner : MonoBehaviour
     #endregion
 
     #region Private & Protected
+
+    private GameObject[] _enemies;
 
     #endregion
 }

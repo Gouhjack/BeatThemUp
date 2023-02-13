@@ -116,7 +116,7 @@ public class EnemyBehaviour : MonoBehaviour
                   _animator.SetBool("IsAttacking", true);
                   break;
               case EnemyState.DEAD:
-                  _animator.SetBool("IsDead", true);
+                  _animator.SetBool("isDead", true);
                 _waitingTimeBeforeAttack = 10;
                 _speed = 0;
                 _hitBox.SetActive(false);
@@ -181,7 +181,7 @@ public class EnemyBehaviour : MonoBehaviour
                     break;
               case EnemyState.DEAD:
 
-                _animator.SetBool("IsDead", true);
+                _animator.SetBool("isDead", true);
                 //GetComponent<HitBox>()._damage = 0;
                 _speed = 0;
                 _hitBox.SetActive(false);
@@ -208,7 +208,7 @@ public class EnemyBehaviour : MonoBehaviour
                   _animator.SetBool("IsAttacking", false);
                   break;
               case EnemyState.DEAD:
-                _animator.SetBool("IsDead", true);
+                _animator.SetBool("isDead", true);
                 _waitingTimeBeforeAttack = 10;
                 _speed = 0;
                 _hitBox.SetActive(false);
