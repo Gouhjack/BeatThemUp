@@ -9,7 +9,6 @@ public class Health : MonoBehaviour
     [SerializeField] Animator _animator;
     [SerializeField] private GameObject _record;
     [SerializeField] private GameObject _tape;
-    [SerializeField] private Transform _enemyTransform;
     private bool isDead;
 
     private int MAX_HEALTH = 100;

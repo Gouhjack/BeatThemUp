@@ -230,6 +230,7 @@ public class EnemyBehaviour : MonoBehaviour
 
     public void PlayerDetected()
     {
+        gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
         Debug.Log("J'ai detecté le Player");
         _playerDetected = true;
     }
