@@ -360,7 +360,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &331753934
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1791,7 +1791,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &896804860
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2806,6 +2806,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1143370893}
   m_CullTransparentMesh: 1
+--- !u!95 &1341063628 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6814125129916300422, guid: 024adc99df231f04789cfbb81ba29123, type: 3}
+  m_PrefabInstance: {fileID: 6814125128754608359}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1376950387
 GameObject:
   m_ObjectHideFlags: 0
@@ -4048,15 +4053,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2352396682566667880, guid: 024adc99df231f04789cfbb81ba29123, type: 3}
       propertyPath: _health
-      value: 100
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2352396682566667880, guid: 024adc99df231f04789cfbb81ba29123, type: 3}
       propertyPath: _nbLives
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2352396682566667880, guid: 024adc99df231f04789cfbb81ba29123, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1341063628}
+    - target: {fileID: 2352396682566667880, guid: 024adc99df231f04789cfbb81ba29123, type: 3}
       propertyPath: _healthMax
-      value: 100
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2352396682566667880, guid: 024adc99df231f04789cfbb81ba29123, type: 3}
       propertyPath: _healthbar

@@ -8,25 +8,25 @@ public class PlayerHealth : MonoBehaviour
 {
     #region Expose
 
+    [Header("Health Parameter")]
     [SerializeField]
     [Tooltip("Health = nombre de vie actuel")]
     private float _health = 100;
-
     [SerializeField] 
     private int _healthMax = 100;
 
-    [SerializeField]
-    private Image _healthbar;
-
-    [SerializeField]
-    private GameObject _gameOverScreen;
-
+    [Header("HealthBar Life")]
     [SerializeField]
     [Tooltip("Nombre de barre de vie")]
     private int _nbLives;
-
+    [SerializeField]
+    private Image _healthbar;
     [SerializeField]
     private TextMeshProUGUI _liveCountText;
+
+    [Header("Death")]
+    [SerializeField]
+    private GameObject _gameOverScreen;
 
     #endregion
 
@@ -79,7 +79,6 @@ public class PlayerHealth : MonoBehaviour
             Die();
         }
     }
-
     private void Die()
     {
         _gameOverScreen.SetActive(true);
@@ -89,5 +88,6 @@ public class PlayerHealth : MonoBehaviour
     #region Private & Protected
 
     private float _originHealth;
+
     #endregion
 }
