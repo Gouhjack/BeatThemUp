@@ -31,28 +31,13 @@ public class EnemyBehaviour : MonoBehaviour
     [SerializeField]
     [Tooltip("Collider coup de point")]
     private GameObject _hitBox;
-    
-    //[Header("Life enemy")]
-    //[SerializeField]
-    //private int _healthpoint = 50;
-    
-    [Header("Item after death")]
-    [SerializeField]
-    private GameObject _tapePrefab;
-    [SerializeField]
-    private GameObject _recordPrefab;
-    [SerializeField]
-    private int _nbTapeItem; //Idéalement des IntVariable
-    [SerializeField]
-    private int _nbRecordItem; //Idémalement des IntVariable
 
     #endregion
 
     #region Unity Lyfecycle
     private void Awake()
     {
-        _tapes = new GameObject[_nbTapeItem];
-        _records = new GameObject[_nbRecordItem];
+
     }
     void Start()
     {
@@ -121,7 +106,6 @@ public class EnemyBehaviour : MonoBehaviour
                 _speed = 0;
                 _hitBox.SetActive(false);
                 //faire apparaître les items à sa mort
-                SpawnItemAfterDeath();
                   break;
               default:
                   break;
@@ -186,7 +170,6 @@ public class EnemyBehaviour : MonoBehaviour
                 _speed = 0;
                 _hitBox.SetActive(false);
                 //faire apparaître les items à sa mort
-                SpawnItemAfterDeath();
 
                 break;
             default:
@@ -213,7 +196,6 @@ public class EnemyBehaviour : MonoBehaviour
                 _speed = 0;
                 _hitBox.SetActive(false);
                 //faire apparaître les items à sa mort
-                SpawnItemAfterDeath();
 
                 break;
             default:
@@ -245,20 +227,6 @@ public class EnemyBehaviour : MonoBehaviour
         return Vector2.Distance(transform.position, _moveTarget.position) < _limitNearTarget;
     }
 
-     private void SpawnItemAfterDeath()
-     {
-           for (int i = 0; i < _nbTapeItem; i++)
-           {
-             _tapes[i] = Instantiate(_tapePrefab, transform);
-           }
-           for (int i = 0; i < _nbRecordItem; i++)
-           {
-             _records[i] = Instantiate(_recordPrefab, transform);
-           }
-     }
-
-   
-
     #endregion
 
     #region Private & Protected
@@ -274,8 +242,6 @@ public class EnemyBehaviour : MonoBehaviour
     private GameObject[] _tapes;
 
     private GameObject[] _records;
-
-    
 
     #endregion
 }

@@ -73,7 +73,7 @@ public class PlayerHealth : MonoBehaviour
     private void LoseLife()
     {
         _nbLives--;
-        _health = _healthMax;
+        _health = _originHealth;
         if (_nbLives == 0)
         {
             Die();
