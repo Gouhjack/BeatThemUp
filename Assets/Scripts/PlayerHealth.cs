@@ -22,6 +22,7 @@ public class PlayerHealth : MonoBehaviour
     private GameObject _gameOverScreen;
 
     [SerializeField]
+    [Tooltip("Nombre de barre de vie")]
     private int _nbLives;
 
     [SerializeField]
@@ -38,6 +39,7 @@ public class PlayerHealth : MonoBehaviour
     void Update()
     {
         _liveCountText.text = _nbLives.ToString();
+        _healthbar.fillAmount = _health / _healthMax;
     }
 
     //private void OnCollisionEnter2D(Collision2D collision)
@@ -61,7 +63,6 @@ public class PlayerHealth : MonoBehaviour
         }
         Debug.Log(_healthMax);
         this._health -= amount;
-        _healthbar.fillAmount = _health / _healthMax;
 
         if(_health <= 0)
         {
