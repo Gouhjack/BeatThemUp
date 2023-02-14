@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
     private IntVariable _tapeScore;
     [SerializeField]
     private IntVariable _enemyScore;
+    [SerializeField]
+    private GameObject _victoryUi;
 
     #endregion
 
@@ -25,6 +27,11 @@ public class GameManager : MonoBehaviour
         _recordScore.m_value = 0;
         _tapeScore.m_value = 0;
         _enemyScore.m_value = 0;
+    }
+
+    private void Update()
+    {
+        Victory();
     }
 
     #endregion
@@ -46,9 +53,19 @@ public class GameManager : MonoBehaviour
         _audio.Play();
     }
 
+    private void Victory()
+    {
+        _enemiesArray = GameObject.FindGameObjectsWithTag("Enemy");
+        if (_enemiesArray.Length == 0)
+        {
+            _victoryUi.SetActive(true);
+        }
+    }
     #endregion
 
     #region Private & Protected
+
+    private GameObject[] _enemiesArray;
 
     #endregion
 }
