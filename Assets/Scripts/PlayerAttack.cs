@@ -55,6 +55,7 @@ public class PlayerAttack : MonoBehaviour
         _attacking = true;
         _attackArea.SetActive(_attacking);
         
+        
     }
 
     #endregion
