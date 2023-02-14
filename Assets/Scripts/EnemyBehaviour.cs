@@ -55,14 +55,8 @@ public class EnemyBehaviour : MonoBehaviour
     private void FixedUpdate()
     {
         //Tourner le personnage dans la bonne direction
-        if (_moveTarget.position.x < 0f)
-        {
-            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-        }
-        else if (_moveTarget.position.x > 0)
-        {
-            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-        }
+        Flip();
+
     }
     
   // private void OnCollisionEnter2D(Collision2D collision)
@@ -225,6 +219,18 @@ public class EnemyBehaviour : MonoBehaviour
     private bool IsTargetNearLimit()
     {
         return Vector2.Distance(transform.position, _moveTarget.position) < _limitNearTarget;
+    }
+
+    void Flip()
+    {
+        if (transform.position.x < _moveTarget.position.x)
+        {
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+        }
+        else if (transform.position.x > _moveTarget.position.x)
+        {
+            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+        }
     }
 
     #endregion
