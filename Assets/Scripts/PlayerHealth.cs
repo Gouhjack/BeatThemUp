@@ -42,15 +42,6 @@ public class PlayerHealth : MonoBehaviour
         _healthbar.fillAmount = _health / _healthMax;
     }
 
-    //private void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    if(collision.gameObject.CompareTag("Attack")) 
-    //    {
-
-    //        float coef = _health / _originHealth;
-    //        _healthbar.rectTransform.sizeDelta = new Vector2(_healthBarGrey.rectTransform.sizeDelta.x * coef, _healthBarGrey.rectTransform.sizeDelta.y);
-    //    }
-    //}
     #endregion
 
     #region Methods
@@ -61,7 +52,7 @@ public class PlayerHealth : MonoBehaviour
         {
             throw new System.ArgumentOutOfRangeException("Cannot have negative Damage");
         }
-        Debug.Log(_healthMax);
+        //Debug.Log(_healthMax);
         this._health -= amount;
 
         if(_health <= 0)

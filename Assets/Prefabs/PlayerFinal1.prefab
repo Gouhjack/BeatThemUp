@@ -1,5 +1,67 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1546504324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1546504325}
+  - component: {fileID: 1546504327}
+  - component: {fileID: 1546504326}
+  m_Layer: 0
+  m_Name: SpecialAttack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1546504325
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546504324}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6814125128933177323}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1546504327
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546504324}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 1.33}
+  serializedVersion: 2
+  m_Radius: 3.03
+--- !u!114 &1546504326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546504324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6001374677065f040b63c7e8fef73787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _damage: 20
 --- !u!1 &1768792829304354510
 GameObject:
   m_ObjectHideFlags: 0
@@ -98,6 +160,7 @@ GameObject:
   - component: {fileID: 2352396682566667880}
   - component: {fileID: 6840170856265496651}
   - component: {fileID: 6144223623566779110}
+  - component: {fileID: 4283313052364608935}
   - component: {fileID: 6814125128933177320}
   - component: {fileID: 6814125128933177321}
   m_Layer: 0
@@ -122,6 +185,7 @@ Transform:
   - {fileID: 2394289344977909003}
   - {fileID: 6814125129916300421}
   - {fileID: 8315979183096659119}
+  - {fileID: 1546504325}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -231,7 +295,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _jumpHeight: 5
+  _jumpHeight: 3
   _jumpDuration: 1
   _animator: {fileID: 6814125129916300422}
   _moveSpeed: 3
@@ -252,7 +316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _health: 100
   _healthMax: 100
-  _nbLives: 0
+  _nbLives: 3
   _healthbar: {fileID: 0}
   _liveCountText: {fileID: 0}
   _gameOverScreen: {fileID: 0}
@@ -287,35 +351,45 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 2
-      outSlope: 2
+      inSlope: 1.1106297
+      outSlope: 1.1106297
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0
+      outWeight: 0.064566396
     - serializedVersion: 3
-      time: 0.13274789
-      value: 0.3515931
-      inSlope: 2.7150583
-      outSlope: 2.7150583
+      time: 1
+      value: 0
+      inSlope: -1.5782852
+      outSlope: -1.5782852
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.023011861
-    - serializedVersion: 3
-      time: 0.99731445
-      value: 0.0075683594
-      inSlope: -3.8305101
-      outSlope: -3.8305101
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.041257855
+      inWeight: 0.033679724
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
   _jumpHeight: 3
-  _jumpDuration: 1
+  _jumpDuration: 0.8
+--- !u!114 &4283313052364608935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6814125128933177325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287060a8fe631c147b6fd23a6cfa360d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 6814125129916300422}
+  _specialAttack: {fileID: 1546504324}
+  _manaBar: {fileID: 0}
+  _manaText: {fileID: 0}
+  _manaAmount: 0
+  _manaRegenAmount: 0
+  _manaMax: 100
 --- !u!50 &6814125128933177320
 Rigidbody2D:
   serializedVersion: 4

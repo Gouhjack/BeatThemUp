@@ -112,11 +112,11 @@ public class Health : MonoBehaviour
         Destroy(tape, 5f);
     }
 
-    private void Die()
+   private void Die()
    {
        
        
-       Debug.Log("I am Dead!");
+       //Debug.Log("I am Dead!");
        
        Destroy(gameObject);
    }
