@@ -11,6 +11,8 @@ public class UpdateText : MonoBehaviour
     private IntVariable _tapeScore;
     [SerializeField]
     private IntVariable _recordScore;
+    [SerializeField]
+    private IntVariable _enemyScore;
 
     #endregion
 
@@ -25,7 +27,7 @@ public class UpdateText : MonoBehaviour
     }
     void Update()
     {
-        _textScore.text = (_tapeScore.m_value + _recordScore.m_value).ToString();
+        _textScore.text = (_tapeScore.m_value + _recordScore.m_value + _enemyScore.m_value).ToString();
     }
     #endregion
 

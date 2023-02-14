@@ -13,6 +13,8 @@ public class GameManager : MonoBehaviour
     private IntVariable _recordScore;
     [SerializeField]
     private IntVariable _tapeScore;
+    [SerializeField]
+    private IntVariable _enemyScore;
 
     #endregion
 
@@ -22,6 +24,7 @@ public class GameManager : MonoBehaviour
         _audio = GetComponent<AudioSource>();
         _recordScore.m_value = 0;
         _tapeScore.m_value = 0;
+        _enemyScore.m_value = 0;
     }
 
     #endregion

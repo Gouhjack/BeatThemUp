@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
+using static UnityEditor.Progress;
 
 public class Health : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class Health : MonoBehaviour
     [SerializeField] Animator _animator;
     [SerializeField] private GameObject _record;
     [SerializeField] private GameObject _tape;
+    [SerializeField] private IntVariable _enemyScore;
+    [SerializeField] private int _score;
     private bool isDead;
 
     private int MAX_HEALTH = 100;
@@ -94,6 +97,7 @@ public class Health : MonoBehaviour
             GetComponentInChildren<SpriteRenderer>().enabled = true;
         }
         Destroy(gameObject);
+        _enemyScore.m_value += _score;
         DropItem();
     }
 
