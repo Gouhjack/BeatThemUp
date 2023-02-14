@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 362280764298731484}
   - component: {fileID: 8263271941382200736}
   - component: {fileID: 8473112042316389647}
+  - component: {fileID: 8275024555590516132}
+  - component: {fileID: 6282306469021251405}
   m_Layer: 0
   m_Name: Enemy_3
   m_TagString: Enemy
@@ -50,15 +52,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 362280765911212730}
-  _speed: 0
-  _limitNearTarget: 0
-  _waitingTimeBeforeAttack: 0
-  _attackduration: 0
+  _speed: 2
+  _limitNearTarget: 1
+  _waitingTimeBeforeAttack: 1
+  _attackduration: 0.2
   _hitBox: {fileID: 2179695110412793377}
-  _tapePrefab: {fileID: 2396750309863071571, guid: 073f10f183f143c478b21725893c8925, type: 3}
-  _recordPrefab: {fileID: 4895727572008923615, guid: 306094eeb16989c499b4bda040e3b97f, type: 3}
-  _nbTapeItem: 0
-  _nbRecordItem: 0
 --- !u!114 &8473112042316389647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72,7 +70,58 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 35
-  _animator: {fileID: 0}
+  _animator: {fileID: 362280765911212730}
+  _record: {fileID: 4895727572008923615, guid: 306094eeb16989c499b4bda040e3b97f, type: 3}
+  _tape: {fileID: 2396750309863071571, guid: 073f10f183f143c478b21725893c8925, type: 3}
+  _enemyScore: {fileID: 11400000, guid: 295f00e16221afd4fae9470656f4c892, type: 2}
+  _score: 30
+--- !u!50 &8275024555590516132
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362280764298731485}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &6282306469021251405
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362280764298731485}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.010201097, y: 0.9946015}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.77557707, y: 1.19382}
+  m_EdgeRadius: 0
 --- !u!1 &362280765911212725
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,7 +439,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 1.04}

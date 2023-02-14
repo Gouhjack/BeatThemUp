@@ -56,7 +56,7 @@ public class CameraMovement : MonoBehaviour
     #endregion
 
     #region Methods
-
+        
     #endregion
 
     #region Private & Protected
