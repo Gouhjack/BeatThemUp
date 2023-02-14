@@ -10,7 +10,7 @@ public class ImpactPrefab : MonoBehaviour
         private void OnTriggerEnter2D(Collider2D col)
         {
             // Check if the col was with a specific tag or layer
-            if (col.gameObject.CompareTag("Enemy"))
+            if (col.gameObject.CompareTag("Attack"))
             {
             Debug.Log(col.gameObject.name + " touché");
                 // Get the position and rotation of the col point
