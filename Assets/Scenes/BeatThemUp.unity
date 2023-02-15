@@ -1407,7 +1407,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f46d8e5b7b3d44ad890f01dd8c6d0320, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.599
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -4293,6 +4293,18 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1829497019753724448, guid: 6d09c2a735e11f34b86b0bdf758932f6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829497019753724448, guid: 6d09c2a735e11f34b86b0bdf758932f6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829497019753724448, guid: 6d09c2a735e11f34b86b0bdf758932f6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829497019753724448, guid: 6d09c2a735e11f34b86b0bdf758932f6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 59.893158
       objectReference: {fileID: 0}
@@ -5327,6 +5339,22 @@ PrefabInstance:
       propertyPath: _gameOverScreen
       value: 
       objectReference: {fileID: 1926946877}
+    - target: {fileID: 3591882518350833037, guid: 024adc99df231f04789cfbb81ba29123, type: 3}
+      propertyPath: m_Size.x
+      value: 0.32669067
+      objectReference: {fileID: 0}
+    - target: {fileID: 3591882518350833037, guid: 024adc99df231f04789cfbb81ba29123, type: 3}
+      propertyPath: m_Size.y
+      value: 1.0921781
+      objectReference: {fileID: 0}
+    - target: {fileID: 3591882518350833037, guid: 024adc99df231f04789cfbb81ba29123, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.03735733
+      objectReference: {fileID: 0}
+    - target: {fileID: 3591882518350833037, guid: 024adc99df231f04789cfbb81ba29123, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.53158677
+      objectReference: {fileID: 0}
     - target: {fileID: 4283313052364608935, guid: 024adc99df231f04789cfbb81ba29123, type: 3}
       propertyPath: _manaBar
       value: 

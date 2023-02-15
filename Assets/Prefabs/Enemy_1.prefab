@@ -307,10 +307,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 649443023585335691}
-  _speed: 2
+  _speed: 3
   _limitNearTarget: 1
-  _waitingTimeBeforeAttack: 1
-  _attackduration: 0.2
+  _waitingTimeBeforeAttack: 0.5
+  _attackduration: 0.5
   _hitBox: {fileID: 649443022742870280}
 --- !u!114 &6449791593564948639
 MonoBehaviour:
@@ -350,7 +350,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 0
   m_CollisionDetection: 1
-  m_Constraints: 4
+  m_Constraints: 7
 --- !u!61 &5190724374682916373
 BoxCollider2D:
   m_ObjectHideFlags: 0

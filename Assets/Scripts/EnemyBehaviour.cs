@@ -24,7 +24,7 @@ public class EnemyBehaviour : MonoBehaviour
     private float _limitNearTarget;
     [SerializeField]
     [Tooltip("Temps avant d'attaquer")]
-    private float _waitingTimeBeforeAttack;
+    private float _waitingTimeBeforeAttack = 0.1f;
     [SerializeField]
     [Tooltip("Temps d'attaque")]
     private float _attackduration;
@@ -163,6 +163,7 @@ public class EnemyBehaviour : MonoBehaviour
                 //GetComponent<HitBox>()._damage = 0;
                 _speed = 0;
                 _hitBox.SetActive(false);
+                _waitingTimeBeforeAttack = 10;
                 //faire apparaître les items à sa mort
 
                 break;
