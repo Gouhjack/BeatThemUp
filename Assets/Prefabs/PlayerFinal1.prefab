@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1546504325}
   - component: {fileID: 1546504327}
-  - component: {fileID: 1546504326}
+  - component: {fileID: 1946588522}
   m_Layer: 0
   m_Name: SpecialAttack
-  m_TagString: Untagged
+  m_TagString: Attack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49,7 +49,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 1.33}
   serializedVersion: 2
   m_Radius: 3.03
---- !u!114 &1546504326
+--- !u!114 &1946588522
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -58,7 +58,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1546504324}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6001374677065f040b63c7e8fef73787, type: 3}
+  m_Script: {fileID: 11500000, guid: 142d9a1b890b3c94da701053b7a1f7ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _damage: 20
@@ -628,6 +628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 142d9a1b890b3c94da701053b7a1f7ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _damage: 5
 --- !u!82 &8836267452778153167
 AudioSource:
   m_ObjectHideFlags: 0

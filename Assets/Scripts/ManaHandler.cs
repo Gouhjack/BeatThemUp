@@ -72,7 +72,7 @@ public class ManaHandler : MonoBehaviour
     private void Mana()
     {
         _manaAmount = 0;
-        _manaRegenAmount = 50f;
+        _manaRegenAmount = 2.5f;
     }
 
     public void SpendMana(float amount)
