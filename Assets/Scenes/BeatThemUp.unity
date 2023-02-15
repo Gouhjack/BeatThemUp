@@ -400,11 +400,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4603717810781492602, guid: 2dbbc8b200e567c49b8db06306458282, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 22.063337
+      value: 21.58
       objectReference: {fileID: 0}
     - target: {fileID: 4603717810781492602, guid: 2dbbc8b200e567c49b8db06306458282, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.7772169
+      value: 0.37
       objectReference: {fileID: 0}
     - target: {fileID: 4603717810781492602, guid: 2dbbc8b200e567c49b8db06306458282, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1189,11 +1189,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4603717810781492602, guid: 2dbbc8b200e567c49b8db06306458282, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.27
+      value: -8.99
       objectReference: {fileID: 0}
     - target: {fileID: 4603717810781492602, guid: 2dbbc8b200e567c49b8db06306458282, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3712765
+      value: 0.64
       objectReference: {fileID: 0}
     - target: {fileID: 4603717810781492602, guid: 2dbbc8b200e567c49b8db06306458282, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2851,7 +2851,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 46.072945, y: 2.9024622}
+  m_Offset: {x: 46.072945, y: 2.691122}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2862,7 +2862,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 27.791607, y: 1.6950755}
+  m_Size: {x: 27.79161, y: 2.1177557}
   m_EdgeRadius: 0
 --- !u!61 &962683476
 BoxCollider2D:
@@ -2877,7 +2877,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 12.670704, y: 2.873805}
+  m_Offset: {x: 12.670704, y: 2.704733}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2888,7 +2888,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 24.597656, y: 1.7523899}
+  m_Size: {x: 24.597656, y: 2.0905342}
   m_EdgeRadius: 0
 --- !u!61 &962683477
 BoxCollider2D:
@@ -2981,7 +2981,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 28.571043, y: 4.1057014}
+  m_Offset: {x: 28.571043, y: 3.9704437}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2992,7 +2992,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.067501, y: 2.1777954}
+  m_Size: {x: 7.067501, y: 2.4483109}
   m_EdgeRadius: 0
 --- !u!61 &962683481
 BoxCollider2D:
@@ -3059,7 +3059,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -35.33973, y: 4.1758604}
+  m_Offset: {x: -35.33973, y: 3.8555684}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3070,7 +3070,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.3963623, y: 1.9505618}
+  m_Size: {x: 7.3963623, y: 2.5911453}
   m_EdgeRadius: 0
 --- !u!61 &962683484
 BoxCollider2D:
@@ -3085,7 +3085,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -26.849947, y: 2.9184723}
+  m_Offset: {x: -26.849947, y: 2.7825909}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3096,7 +3096,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9.535847, y: 1.6630552}
+  m_Size: {x: 9.535847, y: 1.9348183}
   m_EdgeRadius: 0
 --- !u!61 &962683485
 BoxCollider2D:
@@ -3111,7 +3111,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -49.519375, y: 2.9491851}
+  m_Offset: {x: -49.519375, y: 2.7043815}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3122,7 +3122,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 20.89875, y: 1.6016297}
+  m_Size: {x: 20.89875, y: 2.091237}
   m_EdgeRadius: 0
 --- !u!61 &962683486
 BoxCollider2D:
@@ -3137,7 +3137,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -12.900797, y: 2.930876}
+  m_Offset: {x: -12.900797, y: 2.717348}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3148,7 +3148,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 11.56152, y: 1.638248}
+  m_Size: {x: 11.56152, y: 2.0653038}
   m_EdgeRadius: 0
 --- !u!1 &969044609
 GameObject:
@@ -4229,11 +4229,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4603717810781492602, guid: 2dbbc8b200e567c49b8db06306458282, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 60.5036
+      value: 60.88
       objectReference: {fileID: 0}
     - target: {fileID: 4603717810781492602, guid: 2dbbc8b200e567c49b8db06306458282, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.8999238
+      value: 0.31
       objectReference: {fileID: 0}
     - target: {fileID: 4603717810781492602, guid: 2dbbc8b200e567c49b8db06306458282, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4500,11 +4500,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4603717810781492602, guid: 2dbbc8b200e567c49b8db06306458282, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 46.497482
+      value: 44.61
       objectReference: {fileID: 0}
     - target: {fileID: 4603717810781492602, guid: 2dbbc8b200e567c49b8db06306458282, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.1814537
+      value: 0.81
       objectReference: {fileID: 0}
     - target: {fileID: 4603717810781492602, guid: 2dbbc8b200e567c49b8db06306458282, type: 3}
       propertyPath: m_LocalPosition.z
