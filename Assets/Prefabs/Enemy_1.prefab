@@ -324,7 +324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e944514128badb4dbffc877341ec2e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 50
   _animator: {fileID: 649443023585335691}
   _record: {fileID: 4895727572008923615, guid: 306094eeb16989c499b4bda040e3b97f, type: 3}
   _tape: {fileID: 2396750309863071571, guid: 073f10f183f143c478b21725893c8925, type: 3}
